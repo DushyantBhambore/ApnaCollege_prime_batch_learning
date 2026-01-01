@@ -1,0 +1,779 @@
+1
+00:00:00,140 --> 00:00:02,810
+So guys, we have seen different different data types again.
+
+2
+00:00:02,870 --> 00:00:03,470
+Hello guys.
+
+3
+00:00:03,470 --> 00:00:06,200
+So we are going to continue the discussion with respect to Python.
+
+4
+00:00:06,200 --> 00:00:08,960
+Already in our previous video we have discussed about variables.
+
+5
+00:00:08,960 --> 00:00:11,840
+Now in this video we are going to discuss about data types.
+
+6
+00:00:11,840 --> 00:00:15,140
+Now here is the detailed video outline.
+
+7
+00:00:15,140 --> 00:00:19,160
+Uh, first of all we are going to understand the introduction to data types, uh importance of data
+
+8
+00:00:19,160 --> 00:00:20,360
+types in programming.
+
+9
+00:00:20,360 --> 00:00:25,220
+Then we are going to explore some of the basic data types like integer floating point number strings
+
+10
+00:00:25,220 --> 00:00:26,210
+and booleans.
+
+11
+00:00:26,210 --> 00:00:30,950
+And after that, uh, you know, after some number of videos we are going to see advanced data types,
+
+12
+00:00:30,950 --> 00:00:33,770
+uh, like list tuples, sets and dictionaries here.
+
+13
+00:00:33,770 --> 00:00:36,410
+There is a lot of operations that we really need to understand.
+
+14
+00:00:36,410 --> 00:00:39,920
+So I will be discussing about this topic further going ahead.
+
+15
+00:00:39,920 --> 00:00:44,690
+And then you also have some examples with respect to type conversion and practical example.
+
+16
+00:00:45,320 --> 00:00:48,620
+Now first of all uh we need to understand the definition of data types.
+
+17
+00:00:48,620 --> 00:00:50,330
+What exactly data types are.
+
+18
+00:00:50,330 --> 00:00:56,150
+So here uh, data types are a classification of data which tells the compiler or interpreter how the
+
+19
+00:00:56,150 --> 00:00:58,310
+programmer intends to use the data.
+
+20
+00:00:58,310 --> 00:00:58,790
+Right?
+
+21
+00:00:58,790 --> 00:01:03,890
+They determine the type of operation that can be performed on the data, the values that the data can
+
+22
+00:01:03,890 --> 00:01:06,740
+take, and the amount of memory needed to store the data.
+
+23
+00:01:06,770 --> 00:01:07,220
+Right.
+
+24
+00:01:07,220 --> 00:01:09,470
+And as you all know, there are different different data types.
+
+25
+00:01:09,470 --> 00:01:14,540
+Uh, like, um, you know, if I probably say integer floating, they definitely require different amount
+
+26
+00:01:14,540 --> 00:01:15,290
+of memory, right?
+
+27
+00:01:15,290 --> 00:01:19,730
+Whenever they are storing some kind of, uh, information like you may have int eight bit, you may
+
+28
+00:01:19,730 --> 00:01:21,650
+have float 16 bits.
+
+29
+00:01:21,680 --> 00:01:21,920
+Right.
+
+30
+00:01:21,920 --> 00:01:26,990
+So different, different uh bits information will be there uh, for a specific data type.
+
+31
+00:01:26,990 --> 00:01:30,710
+Right now let's understand what are the importance of data type in programming.
+
+32
+00:01:30,710 --> 00:01:35,120
+So data types ensure that the data is stored in a very efficient way.
+
+33
+00:01:35,120 --> 00:01:38,210
+They help in performing correct operations on data.
+
+34
+00:01:38,330 --> 00:01:41,630
+And proper use of data types can prevent errors and bugs in the program.
+
+35
+00:01:41,630 --> 00:01:45,140
+And obviously memory management is also one of the very key term.
+
+36
+00:01:45,140 --> 00:01:50,600
+Okay, now let me just go ahead and show you with respect to the code, uh, and how we can basically
+
+37
+00:01:50,600 --> 00:01:56,630
+start with, okay, now the first, uh, example that we are going to go ahead, right, with respect
+
+38
+00:01:56,630 --> 00:01:59,060
+to the data types is nothing but integers.
+
+39
+00:01:59,060 --> 00:02:01,790
+So here I'm going to basically go ahead and write integers.
+
+40
+00:02:01,880 --> 00:02:03,890
+So this looks like a plain text.
+
+41
+00:02:03,890 --> 00:02:07,460
+Let me delete this because I don't want this I will go ahead and create.
+
+42
+00:02:07,460 --> 00:02:10,430
+So here um you will be able to see integers.
+
+43
+00:02:10,430 --> 00:02:12,110
+Example okay.
+
+44
+00:02:12,230 --> 00:02:16,070
+And uh first of all let me just go ahead and select the kernel okay.
+
+45
+00:02:16,070 --> 00:02:17,450
+So the kernel is over here.
+
+46
+00:02:17,450 --> 00:02:21,080
+Now let me go ahead and create a variable of an integer type.
+
+47
+00:02:21,080 --> 00:02:26,660
+Right now if I really want to create a variable I hope everybody is I have already told it.
+
+48
+00:02:26,660 --> 00:02:28,640
+Let's say age is equal to 35.
+
+49
+00:02:28,640 --> 00:02:34,940
+And if I go ahead and write type of age, this will specifically give me an integer value.
+
+50
+00:02:34,940 --> 00:02:39,620
+As I always said, whatever topics we are seeing again it will be getting repeated.
+
+51
+00:02:39,620 --> 00:02:45,710
+You know, we will just be seeing that how uh, more things we can actually learn about this right now.
+
+52
+00:02:45,710 --> 00:02:47,870
+See, I have already spoken about variables.
+
+53
+00:02:47,870 --> 00:02:49,340
+I have already spoken about integer.
+
+54
+00:02:49,340 --> 00:02:53,690
+But since we are learning now about data types here also, you'll be able to see that so many different
+
+55
+00:02:53,690 --> 00:02:55,820
+things are there right then.
+
+56
+00:02:55,820 --> 00:03:00,710
+Um, once I probably create an integer variable, you can also go ahead and create a floating point
+
+57
+00:03:00,740 --> 00:03:01,010
+number.
+
+58
+00:03:01,010 --> 00:03:07,520
+So let's say my floating point number uh over here floating point data type okay.
+
+59
+00:03:07,880 --> 00:03:11,120
+Floating point data type here I'm going to specifically use it.
+
+60
+00:03:11,120 --> 00:03:18,260
+And let's say over here I define like, uh, you know, um, sentiment or let's say I will, I will
+
+61
+00:03:18,260 --> 00:03:23,180
+probably define the width right, or width or height or anything.
+
+62
+00:03:23,180 --> 00:03:24,920
+So let's go ahead and define height.
+
+63
+00:03:24,920 --> 00:03:27,470
+So let's say that if I'm writing 5.11.
+
+64
+00:03:27,470 --> 00:03:29,690
+So this uh will be nothing.
+
+65
+00:03:29,690 --> 00:03:32,210
+But if I go ahead and print the height.
+
+66
+00:03:32,390 --> 00:03:32,870
+Right.
+
+67
+00:03:32,870 --> 00:03:37,310
+And if I go ahead and print the type of the height right.
+
+68
+00:03:37,310 --> 00:03:41,450
+So here you will be able to see that I will be able to get my floating point number right.
+
+69
+00:03:41,510 --> 00:03:44,480
+So here you can see I'm able to get 5.11.
+
+70
+00:03:44,480 --> 00:03:46,100
+And this is nothing but class float.
+
+71
+00:03:46,100 --> 00:03:50,720
+This class was nothing but INT I've already spoken about typecasting also.
+
+72
+00:03:50,720 --> 00:03:51,080
+Right.
+
+73
+00:03:51,080 --> 00:03:56,090
+So this is one of the other data type like floating data type uh floating data point example.
+
+74
+00:03:56,450 --> 00:04:00,770
+Um, and the next example that I can probably take is for string.
+
+75
+00:04:00,770 --> 00:04:06,020
+So string data type example okay I will be showing you more examples as we go ahead.
+
+76
+00:04:06,020 --> 00:04:09,080
+So let me say this is name is Krish okay.
+
+77
+00:04:09,710 --> 00:04:17,000
+And uh here you can probably see I'll go ahead and print the name and let me just go ahead and see print
+
+78
+00:04:17,000 --> 00:04:19,940
+type of name okay.
+
+79
+00:04:19,940 --> 00:04:22,310
+So here you can actually see that okay fine.
+
+80
+00:04:22,310 --> 00:04:25,490
+I'm able to see all these things I'm able to get this information and.
+
+81
+00:04:25,490 --> 00:04:26,210
+All right.
+
+82
+00:04:26,210 --> 00:04:31,940
+And similarly one more common data type that we will be specifically using is something called as boolean
+
+83
+00:04:31,940 --> 00:04:32,450
+data type.
+
+84
+00:04:32,450 --> 00:04:32,990
+Right.
+
+85
+00:04:33,110 --> 00:04:37,460
+And again guys I'm not showing you much operations because operations will be coming as we go ahead.
+
+86
+00:04:37,460 --> 00:04:37,790
+Right.
+
+87
+00:04:37,790 --> 00:04:40,910
+Uh, when will be learning about our next tutorial.
+
+88
+00:04:40,910 --> 00:04:43,070
+Right where we'll be learning about operators.
+
+89
+00:04:43,070 --> 00:04:48,320
+At that time, we'll be discussing more about operations, how we can use this and probably, uh, do
+
+90
+00:04:48,320 --> 00:04:49,370
+different types of operation.
+
+91
+00:04:49,370 --> 00:04:49,520
+And.
+
+92
+00:04:49,520 --> 00:04:50,030
+All right.
+
+93
+00:04:50,030 --> 00:04:54,770
+So for Boolean, uh, what you can do is that, uh, I can directly define true or false.
+
+94
+00:04:54,770 --> 00:04:56,360
+So if I probably use true right.
+
+95
+00:04:56,360 --> 00:04:58,100
+So this is basically a boolean value.
+
+96
+00:04:58,100 --> 00:04:58,490
+Right.
+
+97
+00:04:58,490 --> 00:04:59,870
+If I go ahead and see the type.
+
+98
+00:05:00,350 --> 00:05:01,700
+Right stripe.
+
+99
+00:05:01,700 --> 00:05:03,680
+So here you can see it is a bool value right.
+
+100
+00:05:03,680 --> 00:05:05,510
+So this is one way how you can define it.
+
+101
+00:05:05,510 --> 00:05:09,140
+Let's say I define saying that is true right.
+
+102
+00:05:09,140 --> 00:05:11,660
+And I may assign it to true right.
+
+103
+00:05:11,660 --> 00:05:18,950
+And if I go ahead and see the type of is true type off is underscore true, you'll be able to see,
+
+104
+00:05:18,950 --> 00:05:22,160
+hey fine, I'm actually able to get the boolean value right.
+
+105
+00:05:22,160 --> 00:05:23,270
+This is one way.
+
+106
+00:05:23,270 --> 00:05:28,940
+The other way is that I may go ahead and directly assign a bool variable.
+
+107
+00:05:28,940 --> 00:05:29,540
+Right.
+
+108
+00:05:29,540 --> 00:05:32,750
+And let me just go ahead and execute this okay.
+
+109
+00:05:32,750 --> 00:05:37,010
+So here you can see uh when we use a boolean variable right.
+
+110
+00:05:37,010 --> 00:05:38,480
+Or let me do like this.
+
+111
+00:05:38,960 --> 00:05:39,290
+Right.
+
+112
+00:05:39,290 --> 00:05:43,190
+So let's say uh I want to go ahead and define a boolean variable.
+
+113
+00:05:43,310 --> 00:05:46,010
+So I will go ahead and write bool okay.
+
+114
+00:05:46,010 --> 00:05:47,810
+And if I go ahead and execute it right.
+
+115
+00:05:47,810 --> 00:05:51,530
+By default it is probably coming as false right now.
+
+116
+00:05:51,530 --> 00:05:56,150
+Uh, I can also give some other conditions like let's say uh, I have two variables.
+
+117
+00:05:56,150 --> 00:05:56,690
+Right.
+
+118
+00:05:57,230 --> 00:05:59,300
+Uh, let's say I have two variables.
+
+119
+00:05:59,300 --> 00:06:00,710
+Let me define it out.
+
+120
+00:06:00,710 --> 00:06:03,560
+A is equal to ten okay.
+
+121
+00:06:03,560 --> 00:06:05,360
+And B is equal to ten okay.
+
+122
+00:06:05,360 --> 00:06:10,430
+Now if I sorry this is getting added I don't know why.
+
+123
+00:06:10,430 --> 00:06:12,020
+So B is equal to ten okay.
+
+124
+00:06:12,020 --> 00:06:13,670
+So there is some built in functions and all.
+
+125
+00:06:13,670 --> 00:06:15,320
+I think that is why it is getting applied.
+
+126
+00:06:15,320 --> 00:06:18,380
+If I write a double equal to B right.
+
+127
+00:06:18,380 --> 00:06:20,240
+So over here I'm able to get true.
+
+128
+00:06:20,240 --> 00:06:20,690
+Right.
+
+129
+00:06:20,690 --> 00:06:25,670
+And even though I see when I'm doing this specific operation, if I go and see the type it is again
+
+130
+00:06:25,670 --> 00:06:26,150
+Boolean.
+
+131
+00:06:26,150 --> 00:06:26,540
+Right.
+
+132
+00:06:26,540 --> 00:06:29,990
+So Boolean is another one data type which we can specifically use.
+
+133
+00:06:29,990 --> 00:06:32,120
+And this is just for true and false right.
+
+134
+00:06:32,390 --> 00:06:34,460
+Uh that is why Boolean is specifically used.
+
+135
+00:06:34,460 --> 00:06:34,700
+Right.
+
+136
+00:06:34,700 --> 00:06:37,880
+So we will be seeing more of this kind of examples as we go ahead.
+
+137
+00:06:37,880 --> 00:06:38,660
+Right.
+
+138
+00:06:40,540 --> 00:06:46,930
+And I know you are excited to see a lot of operations, but let's go from basics and then we will try
+
+139
+00:06:46,930 --> 00:06:48,610
+to build up more and more concepts.
+
+140
+00:06:48,610 --> 00:06:52,090
+Right at the end of the day, you really need to try and work hard, right?
+
+141
+00:06:52,090 --> 00:06:56,650
+And the more you work hard, uh, it is more like you'll become more perfect in it, right?
+
+142
+00:06:56,650 --> 00:07:00,940
+So let's see some of the common errors that we may probably face.
+
+143
+00:07:00,940 --> 00:07:06,220
+You know, some of the common errors that we may get, uh, whenever we are working with, uh, different,
+
+144
+00:07:06,220 --> 00:07:12,820
+different data types, let's say, uh, my result is something called as hello right now for this particular
+
+145
+00:07:12,820 --> 00:07:13,240
+result.
+
+146
+00:07:13,240 --> 00:07:13,630
+Right.
+
+147
+00:07:13,630 --> 00:07:18,070
+And uh, let's say I want to go ahead and add five.
+
+148
+00:07:18,070 --> 00:07:18,340
+Okay.
+
+149
+00:07:18,340 --> 00:07:19,210
+Now what will happen.
+
+150
+00:07:19,210 --> 00:07:20,500
+Let's check okay.
+
+151
+00:07:20,500 --> 00:07:27,100
+And if I go ahead and execute this here you'll be able to see that I am getting an error right.
+
+152
+00:07:27,220 --> 00:07:31,690
+It is saying can only concatenate string right not integer.
+
+153
+00:07:31,690 --> 00:07:35,710
+And here you can see on the left hand side it is basically a string.
+
+154
+00:07:35,710 --> 00:07:40,510
+And on the right hand side when I'm performing this specific operation, I'm actually giving an integer.
+
+155
+00:07:40,510 --> 00:07:46,450
+So if I really need to fix this error, all I have to do is that go ahead and write this okay.
+
+156
+00:07:46,600 --> 00:07:50,620
+And over here I need to do the typecasting right.
+
+157
+00:07:50,620 --> 00:07:56,440
+So let's say if I go ahead and write str of five then this issue will definitely get fixed.
+
+158
+00:07:56,440 --> 00:07:56,890
+Right.
+
+159
+00:07:56,890 --> 00:08:01,030
+And if I go ahead and print it print the result okay.
+
+160
+00:08:01,030 --> 00:08:03,730
+So here you'll be able to see I'm able to get hello five.
+
+161
+00:08:03,760 --> 00:08:06,040
+Now that is the power of typecasting.
+
+162
+00:08:06,070 --> 00:08:10,810
+See in this particular case when I was trying to concatenate or add five over here.
+
+163
+00:08:10,810 --> 00:08:11,050
+Right.
+
+164
+00:08:11,050 --> 00:08:14,500
+And obviously it is not possible because this is a string and this is a numerical value.
+
+165
+00:08:14,500 --> 00:08:16,540
+We cannot perform any mathematical operation.
+
+166
+00:08:16,540 --> 00:08:16,960
+Right.
+
+167
+00:08:16,960 --> 00:08:20,050
+And uh, here you can actually see that I'm able to get this.
+
+168
+00:08:20,050 --> 00:08:25,450
+So these are some of the common errors like minimal common errors that you may be facing.
+
+169
+00:08:25,690 --> 00:08:29,440
+Uh, but we will deep dive more into different, different operations.
+
+170
+00:08:29,440 --> 00:08:31,840
+And one more thing that I really want to talk about.
+
+171
+00:08:32,080 --> 00:08:36,340
+Uh, let's say if I want to define a string, right, let's say like, hello.
+
+172
+00:08:36,430 --> 00:08:39,100
+Okay, now you'll be able to see string dot.
+
+173
+00:08:39,130 --> 00:08:41,260
+There are so many different, different methods.
+
+174
+00:08:41,260 --> 00:08:41,830
+Right.
+
+175
+00:08:41,830 --> 00:08:45,250
+If I probably go ahead and see there are so many different, different methods.
+
+176
+00:08:45,250 --> 00:08:51,340
+If I go ahead and see over here, see so many different, different methods like is this it is uh,
+
+177
+00:08:51,340 --> 00:08:58,450
+is alphanumeric, is uh, you know, case fold center clear copy count difference difference update.
+
+178
+00:08:58,450 --> 00:09:04,000
+So we will also be seeing this kind of operations once we go ahead towards the advanced data type.
+
+179
+00:09:04,000 --> 00:09:08,230
+Because see we need to understand all these methods because all these methods once you understand you
+
+180
+00:09:08,230 --> 00:09:12,400
+will be able to understand it how you will be using in different different operations.
+
+181
+00:09:12,400 --> 00:09:16,630
+But right now, since we are just discussing with the basics and we are just in the fourth tutorial,
+
+182
+00:09:16,630 --> 00:09:22,900
+uh, I want to go a little bit slowly, uh, with definition, with examples show you multiple things
+
+183
+00:09:22,900 --> 00:09:28,120
+and uh, make sure that you learn things in a way that it it matters a lot to you.
+
+184
+00:09:28,120 --> 00:09:28,600
+Right.
+
+185
+00:09:28,600 --> 00:09:33,340
+And uh, again, uh, as I said, uh, uh, be patience with respect to this.
+
+186
+00:09:33,340 --> 00:09:35,620
+I know many people will be excited saying that.
+
+187
+00:09:35,620 --> 00:09:37,420
+Hey, Krish, quickly complete fast.
+
+188
+00:09:37,420 --> 00:09:37,870
+Right.
+
+189
+00:09:38,500 --> 00:09:42,130
+But let me go a little bit slowly so that you will be able to understand things.
+
+190
+00:09:42,160 --> 00:09:42,610
+Okay.
+
+191
+00:09:42,610 --> 00:09:45,760
+So, uh, yes, uh, this was it from my side.
+
+192
+00:09:45,760 --> 00:09:48,400
+I hope you like this particular video.
+
+193
+00:09:48,670 --> 00:09:49,750
+Um, yes.
+
+194
+00:09:49,750 --> 00:09:51,820
+I will see you all in the next video.
+
+195
+00:09:51,820 --> 00:09:52,510
+Thank you.

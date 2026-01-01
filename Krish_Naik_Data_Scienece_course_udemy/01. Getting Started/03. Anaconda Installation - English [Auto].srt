@@ -1,0 +1,915 @@
+1
+00:00:00,230 --> 00:00:01,040
+Hello guys.
+
+2
+00:00:01,040 --> 00:00:06,770
+So in this video we are going to go ahead with the installation of Anaconda and VS code which will be
+
+3
+00:00:06,770 --> 00:00:08,270
+our IDE, right.
+
+4
+00:00:08,300 --> 00:00:12,320
+If you see just an example of VS code, this is how my VS code looks like.
+
+5
+00:00:12,350 --> 00:00:18,530
+You know, a good, amazing, uh, complete IDE to probably execute your code.
+
+6
+00:00:18,530 --> 00:00:21,470
+You can execute your code both in ipynb format.
+
+7
+00:00:21,470 --> 00:00:24,200
+You can execute your code in.py format and all.
+
+8
+00:00:24,200 --> 00:00:27,170
+So this is entirely my VS code IDE, right?
+
+9
+00:00:27,290 --> 00:00:32,660
+So first of all, before we go ahead and install about VS code, first of all we need to go ahead and
+
+10
+00:00:32,660 --> 00:00:34,160
+install about Anaconda.
+
+11
+00:00:34,160 --> 00:00:38,450
+Anaconda is one amazing open source tool.
+
+12
+00:00:38,480 --> 00:00:42,980
+You know, it provides a complete open source ecosystem for sourcing, building and deploying data science
+
+13
+00:00:42,980 --> 00:00:44,120
+and AI initiative.
+
+14
+00:00:44,150 --> 00:00:50,150
+Okay, so, uh, if you really want to work with multiple environments, multiple packages.
+
+15
+00:00:50,150 --> 00:00:55,700
+So this will be the best thing that you will probably have in order to get started with Python programming
+
+16
+00:00:55,700 --> 00:00:56,120
+language.
+
+17
+00:00:56,120 --> 00:00:56,630
+Right.
+
+18
+00:00:56,630 --> 00:01:02,060
+And it is necessary that everybody uses this, you know because here the management of packages, the
+
+19
+00:01:02,060 --> 00:01:04,890
+management of environments will happen very much easily.
+
+20
+00:01:05,010 --> 00:01:11,370
+Now the importance of packages and management is very important because you may want to work with different
+
+21
+00:01:11,370 --> 00:01:12,720
+different versions of Python.
+
+22
+00:01:12,720 --> 00:01:15,330
+So for that you really need to create a different environments.
+
+23
+00:01:15,360 --> 00:01:19,230
+Okay, so let's get started and start with installation of Anaconda.
+
+24
+00:01:19,230 --> 00:01:22,260
+So first of all we will go ahead and click on Free download.
+
+25
+00:01:22,260 --> 00:01:28,290
+So here you can see that once I click on free download I can uh if you go down okay.
+
+26
+00:01:28,290 --> 00:01:31,110
+So here you will be able to see what all things it basically supports.
+
+27
+00:01:31,110 --> 00:01:34,560
+Right now you can provide your email address.
+
+28
+00:01:34,560 --> 00:01:37,770
+Let's say I'm going to provide my email address over here Krishna zero six.
+
+29
+00:01:37,800 --> 00:01:40,890
+At the rate gmail.com I will click on submit okay.
+
+30
+00:01:40,920 --> 00:01:46,560
+Once I click on submit here, you will be able to see that I'm able to get the Download Now button over
+
+31
+00:01:46,560 --> 00:01:46,980
+here link.
+
+32
+00:01:46,980 --> 00:01:47,520
+Right.
+
+33
+00:01:47,640 --> 00:01:51,360
+So I have windows, I have Mac, I have Linux okay.
+
+34
+00:01:51,390 --> 00:01:57,000
+Now based on your operating system it will automatically give whether you need to install 64 bit graphical
+
+35
+00:01:57,000 --> 00:02:00,150
+installer or whether you need to probably go ahead with Mac Linux.
+
+36
+00:02:00,150 --> 00:02:00,330
+Right?
+
+37
+00:02:00,360 --> 00:02:04,800
+Right now I am having windows, so I will just go ahead and click on this particular link.
+
+38
+00:02:04,800 --> 00:02:10,470
+So once I click on this link here you can see that this entire link is basically getting downloaded.
+
+39
+00:02:10,470 --> 00:02:13,530
+Once it gets downloaded, we'll start the installation.
+
+40
+00:02:13,560 --> 00:02:17,790
+Okay, so I hope everybody remembers this specific step.
+
+41
+00:02:17,790 --> 00:02:21,540
+So first of all we need to go ahead and go to anaconda.com.
+
+42
+00:02:21,540 --> 00:02:27,360
+Click on free downloads, provide your email ID and just go ahead and go to this Download Now option.
+
+43
+00:02:27,360 --> 00:02:31,830
+And whichever is your operating system just go ahead and click on Download Now okay.
+
+44
+00:02:31,860 --> 00:02:37,290
+So once this is done, the next step that you can specifically do over here is that you can see that
+
+45
+00:02:37,290 --> 00:02:39,720
+my Anaconda exe file is ready.
+
+46
+00:02:39,750 --> 00:02:43,440
+I will double click on this and I will start my installation.
+
+47
+00:02:43,440 --> 00:02:47,490
+So here you can see I have already started my installation okay.
+
+48
+00:02:47,490 --> 00:02:50,310
+Setup will guide you through the installation of Anaconda three.
+
+49
+00:02:50,310 --> 00:02:51,930
+So and so version everything.
+
+50
+00:02:51,930 --> 00:02:54,660
+Then we will go ahead and click on next okay.
+
+51
+00:02:54,690 --> 00:02:56,850
+It will ask you for this license agreement.
+
+52
+00:02:56,850 --> 00:02:59,340
+So you just need to go ahead and click on I agree.
+
+53
+00:02:59,700 --> 00:03:05,850
+Now for if your system is basically used by multiple users, you can click on all users or you can just
+
+54
+00:03:05,850 --> 00:03:07,080
+click on just me right.
+
+55
+00:03:07,110 --> 00:03:10,920
+Since I'm using this particular workstation or laptop or anything.
+
+56
+00:03:10,920 --> 00:03:14,340
+I'll just click on just me so I will go ahead and click on next.
+
+57
+00:03:14,790 --> 00:03:19,170
+Now once I go ahead and click on next, it will ask me to select a destination folder.
+
+58
+00:03:19,260 --> 00:03:25,530
+Now by default, this destination folder is basically created in my C drive of Anaconda three, right?
+
+59
+00:03:25,710 --> 00:03:29,310
+If since Anaconda is already installed in my machine.
+
+60
+00:03:29,310 --> 00:03:31,920
+So here you are able to see this Anaconda three folder.
+
+61
+00:03:31,950 --> 00:03:36,300
+But let's say that you want to go ahead of the installation in some other folder by default.
+
+62
+00:03:36,330 --> 00:03:38,280
+Over here it will take the C drive, right.
+
+63
+00:03:38,310 --> 00:03:40,320
+If you want to go ahead with the other folder.
+
+64
+00:03:40,320 --> 00:03:41,640
+Also you can go ahead and select it.
+
+65
+00:03:41,640 --> 00:03:45,630
+Let's say that I want to probably go ahead with my desktop folder.
+
+66
+00:03:45,630 --> 00:03:48,750
+Here I will create my another folder.
+
+67
+00:03:48,750 --> 00:03:54,240
+Or let's say if I go to my E drive okay e drive here I have one Anaconda folder okay.
+
+68
+00:03:54,270 --> 00:03:59,460
+So please make sure that you write this Anaconda three because it needs to be matching with this right
+
+69
+00:03:59,490 --> 00:04:04,020
+in my C drive by default it is basically creating this Anaconda three folder okay.
+
+70
+00:04:04,020 --> 00:04:06,660
+But I want it to have it in E drive.
+
+71
+00:04:06,690 --> 00:04:09,810
+Let's say I'm just showing you multiple options You can also go ahead with C drive.
+
+72
+00:04:09,840 --> 00:04:10,980
+Also it is up to you.
+
+73
+00:04:11,190 --> 00:04:13,120
+So let's say I go ahead and select this.
+
+74
+00:04:13,120 --> 00:04:14,260
+I will write okay.
+
+75
+00:04:14,350 --> 00:04:16,990
+And then I will go ahead and click on next.
+
+76
+00:04:17,110 --> 00:04:22,090
+So here you can see that it will give you multiple option create start menu shortcuts.
+
+77
+00:04:22,120 --> 00:04:25,780
+Add Anaconda three to my path environment variable not recommended.
+
+78
+00:04:25,810 --> 00:04:28,180
+Clear the package cache upon completion.
+
+79
+00:04:28,180 --> 00:04:29,170
+So what I will do.
+
+80
+00:04:29,170 --> 00:04:31,330
+I will also make sure that I will check this box.
+
+81
+00:04:31,360 --> 00:04:35,230
+Okay, it is saying not recommended, but I will tell you what is the importance of this.
+
+82
+00:04:35,230 --> 00:04:39,220
+Because once we go to our environment variable okay.
+
+83
+00:04:39,400 --> 00:04:44,890
+If I just go ahead and see my environment variable, one very important thing in this particular path,
+
+84
+00:04:44,920 --> 00:04:48,130
+right, is to have this anaconda path.
+
+85
+00:04:48,160 --> 00:04:48,460
+Right.
+
+86
+00:04:48,460 --> 00:04:52,480
+So this paths will be automatically added in the environment variable.
+
+87
+00:04:52,540 --> 00:04:57,340
+And because of this particular path you know, if it is added in the environment variable, it will
+
+88
+00:04:57,340 --> 00:05:00,550
+be very helpful when we execute any conda command.
+
+89
+00:05:00,580 --> 00:05:01,150
+Right.
+
+90
+00:05:01,420 --> 00:05:04,270
+With the help of conda command we will be creating a new environment.
+
+91
+00:05:04,270 --> 00:05:05,500
+We will be doing multiple things.
+
+92
+00:05:05,500 --> 00:05:06,280
+And all right.
+
+93
+00:05:06,280 --> 00:05:07,930
+So this will be very important.
+
+94
+00:05:07,960 --> 00:05:08,410
+Right.
+
+95
+00:05:08,410 --> 00:05:15,460
+And this path is only added when you specifically when you specifically just check this particular box.
+
+96
+00:05:15,460 --> 00:05:18,620
+That is, add Anaconda three to my path environment variable.
+
+97
+00:05:18,620 --> 00:05:19,910
+This is important.
+
+98
+00:05:19,940 --> 00:05:22,280
+Please do make sure that you check this okay.
+
+99
+00:05:22,280 --> 00:05:25,580
+And then what you can actually do you can click on install.
+
+100
+00:05:25,580 --> 00:05:29,840
+Once you click on install this is going to take some amount of time with respect to the installation.
+
+101
+00:05:29,840 --> 00:05:35,720
+Once the installation will happen, wherever you have selected the folder location right there, the
+
+102
+00:05:35,720 --> 00:05:37,580
+installation will happen automatically.
+
+103
+00:05:37,580 --> 00:05:44,150
+And also make sure that whenever you see your environment variable right, that environment variable
+
+104
+00:05:44,180 --> 00:05:47,810
+should have this path inserted over here.
+
+105
+00:05:47,840 --> 00:05:48,320
+Right?
+
+106
+00:05:48,320 --> 00:05:49,280
+So Anaconda three.
+
+107
+00:05:49,310 --> 00:05:53,960
+Anaconda three library this bin folder user bin folder library bin folder and scripts.
+
+108
+00:05:53,960 --> 00:05:59,960
+This for path needed to be added and it will get automatically added if you have done the checkbox.
+
+109
+00:05:59,990 --> 00:06:00,440
+Okay.
+
+110
+00:06:00,440 --> 00:06:06,080
+So this is very important because of without this, trust me your command is going to fail when you
+
+111
+00:06:06,080 --> 00:06:07,340
+write any conda command.
+
+112
+00:06:07,370 --> 00:06:07,850
+Okay.
+
+113
+00:06:07,880 --> 00:06:09,680
+Like you want to do probably pip install.
+
+114
+00:06:09,680 --> 00:06:13,220
+You want to probably create an environment using conda that is not going to work.
+
+115
+00:06:13,250 --> 00:06:13,760
+Okay.
+
+116
+00:06:13,910 --> 00:06:17,180
+So once this installation is done I hope you will be able to do it.
+
+117
+00:06:17,210 --> 00:06:17,690
+Okay.
+
+118
+00:06:17,690 --> 00:06:19,100
+Just please go ahead and do it.
+
+119
+00:06:19,130 --> 00:06:22,340
+Once the installation is done, your anaconda will be ready.
+
+120
+00:06:22,430 --> 00:06:26,450
+Now, once you complete the installation, I will just go ahead and click on Anaconda.
+
+121
+00:06:26,480 --> 00:06:26,810
+Right.
+
+122
+00:06:26,810 --> 00:06:31,640
+So once I write Anaconda here you will be able to see that I'll be getting this Anaconda navigator.
+
+123
+00:06:31,760 --> 00:06:34,370
+So I will click on Anaconda Navigator over here.
+
+124
+00:06:34,850 --> 00:06:39,620
+Once I click on Anaconda Navigator here is what it will get displayed.
+
+125
+00:06:39,620 --> 00:06:42,770
+So this will be initializing and I will be able to see one.
+
+126
+00:06:42,800 --> 00:06:43,730
+Amazing.
+
+127
+00:06:44,030 --> 00:06:48,800
+Uh, you know, this entire Anaconda navigator will be opened as a window app.
+
+128
+00:06:48,830 --> 00:06:49,370
+Okay.
+
+129
+00:06:49,370 --> 00:06:55,520
+So this is going to just take some time because once you probably do the installation, you go ahead
+
+130
+00:06:55,520 --> 00:06:56,480
+and just open it.
+
+131
+00:06:56,480 --> 00:06:59,990
+So here you can see I have opened this.
+
+132
+00:07:00,020 --> 00:07:00,260
+Okay.
+
+133
+00:07:00,290 --> 00:07:03,590
+So this is my Anaconda navigator.
+
+134
+00:07:03,590 --> 00:07:06,050
+So in this Anaconda navigator you have Jupiter notebook.
+
+135
+00:07:06,080 --> 00:07:07,370
+You can directly click on launch.
+
+136
+00:07:07,400 --> 00:07:08,000
+Automatically.
+
+137
+00:07:08,000 --> 00:07:09,920
+The Jupiter notebook will be opened.
+
+138
+00:07:10,010 --> 00:07:12,350
+You have other things like PyCharm.
+
+139
+00:07:12,350 --> 00:07:13,640
+You have data.
+
+140
+00:07:13,760 --> 00:07:14,810
+Uh datalore.
+
+141
+00:07:14,840 --> 00:07:16,340
+You have Watson Studio.
+
+142
+00:07:16,370 --> 00:07:17,960
+You have PyCharm professional.
+
+143
+00:07:17,960 --> 00:07:19,760
+All these are different different Ides.
+
+144
+00:07:19,790 --> 00:07:20,420
+Right.
+
+145
+00:07:20,420 --> 00:07:24,260
+And one of the main things is that I've already installed this anaconda.
+
+146
+00:07:24,290 --> 00:07:29,120
+You will be able to see that so many different different environments have created C, V and V, V and
+
+147
+00:07:29,120 --> 00:07:31,370
+V in different different folder location.
+
+148
+00:07:31,400 --> 00:07:34,400
+I will show you how to create an environment and all as we go ahead.
+
+149
+00:07:34,430 --> 00:07:34,970
+Okay.
+
+150
+00:07:35,090 --> 00:07:41,060
+Now after going ahead with this Anaconda navigator, the next thing that you need to install is your
+
+151
+00:07:41,090 --> 00:07:41,960
+VS code.
+
+152
+00:07:41,990 --> 00:07:46,370
+So in order to install the VS code I will click on VS code download.
+
+153
+00:07:46,460 --> 00:07:47,060
+Okay.
+
+154
+00:07:47,150 --> 00:07:50,780
+Then here my VS code link will be over here.
+
+155
+00:07:50,780 --> 00:07:56,000
+Just click on VS code download and this VS code is also available for everyone.
+
+156
+00:07:56,000 --> 00:07:57,890
+It is a complete open source.
+
+157
+00:07:57,890 --> 00:08:04,190
+So based on your operating system, whether it is windows OS or Mac, you just go ahead and install
+
+158
+00:08:04,190 --> 00:08:04,610
+this.
+
+159
+00:08:04,610 --> 00:08:09,170
+So I'll click this and the installation and the downloading will basically start.
+
+160
+00:08:09,170 --> 00:08:14,090
+Once the downloading is started just double click this do next next next and all the installation will
+
+161
+00:08:14,090 --> 00:08:14,660
+be done.
+
+162
+00:08:14,720 --> 00:08:15,290
+Okay.
+
+163
+00:08:15,890 --> 00:08:19,850
+Now how to start a VS code after the installation is done okay.
+
+164
+00:08:19,880 --> 00:08:21,590
+So right now I have the exe file.
+
+165
+00:08:21,590 --> 00:08:23,330
+I have already done the installation.
+
+166
+00:08:23,480 --> 00:08:25,290
+I will go to my folder.
+
+167
+00:08:25,290 --> 00:08:29,460
+Let's say that I want to start my Python programming language from this particular folder.
+
+168
+00:08:29,460 --> 00:08:31,560
+So I've created a Data Analyst Boot Camp folder.
+
+169
+00:08:31,560 --> 00:08:33,840
+Inside that I've created a Python folder.
+
+170
+00:08:33,870 --> 00:08:34,440
+Okay.
+
+171
+00:08:34,560 --> 00:08:39,840
+So from this particular folder what I will do I will go ahead and write my command prompt okay.
+
+172
+00:08:40,260 --> 00:08:43,290
+So I will open my command prompt inside this command prompt.
+
+173
+00:08:43,290 --> 00:08:47,040
+And remember you have to start this process after you install this.
+
+174
+00:08:47,040 --> 00:08:48,960
+But still this is getting downloaded.
+
+175
+00:08:48,960 --> 00:08:51,420
+Once it gets downloaded, just double click this.
+
+176
+00:08:51,450 --> 00:08:55,440
+Click on next, next next and on the installation will basically happen.
+
+177
+00:08:55,470 --> 00:08:58,920
+Okay, now I will go ahead and open my command prompt.
+
+178
+00:08:58,950 --> 00:09:01,530
+I will go to this specific folder location.
+
+179
+00:09:01,830 --> 00:09:02,190
+Right.
+
+180
+00:09:02,190 --> 00:09:05,910
+So I will say CD e this particular drive right.
+
+181
+00:09:05,940 --> 00:09:07,140
+So what did I do over here?
+
+182
+00:09:07,140 --> 00:09:13,020
+I wrote CD and this path that I have actually taken, I have just pasted it over here.
+
+183
+00:09:13,200 --> 00:09:13,740
+Okay.
+
+184
+00:09:14,040 --> 00:09:15,750
+Like this I'm pasting it over here.
+
+185
+00:09:15,810 --> 00:09:17,100
+So here it is.
+
+186
+00:09:17,130 --> 00:09:18,810
+And I will go to my e drive.
+
+187
+00:09:18,810 --> 00:09:23,460
+So here you can see once I go to my E drive automatically I'm going in that specific path.
+
+188
+00:09:23,520 --> 00:09:28,230
+Not only this, if you want to go ahead and start from here also you can go ahead and do it, you know.
+
+189
+00:09:28,290 --> 00:09:30,690
+So here if I do right click here.
+
+190
+00:09:30,690 --> 00:09:33,180
+You can see I'm getting open with code right.
+
+191
+00:09:33,210 --> 00:09:36,990
+If you are installing it for the first time, probably you may not get it right.
+
+192
+00:09:36,990 --> 00:09:40,860
+So here you can see my VS code is basically exe file is installed.
+
+193
+00:09:40,860 --> 00:09:47,250
+So if I double click this here you can see setup has detected that Visual Studio code is currently running.
+
+194
+00:09:47,250 --> 00:09:50,610
+Please close all the instances then click okay to continue.
+
+195
+00:09:50,610 --> 00:09:52,380
+So already my installation is done.
+
+196
+00:09:52,380 --> 00:09:53,490
+So I'm not going to do that.
+
+197
+00:09:53,490 --> 00:09:56,160
+But for you it will just keep on coming next next next.
+
+198
+00:09:56,160 --> 00:09:57,900
+And you can start now.
+
+199
+00:09:57,900 --> 00:10:01,410
+Once I go to my command prompt in this particular folder location.
+
+200
+00:10:01,440 --> 00:10:04,830
+Okay I will just go ahead and write code dot.
+
+201
+00:10:04,890 --> 00:10:09,150
+Once I write code dot, please make sure that you note this particular command.
+
+202
+00:10:09,180 --> 00:10:15,690
+Once I write code dot automatically my VS code will get opened in that specific folder location.
+
+203
+00:10:15,690 --> 00:10:18,540
+So here you can probably see Python right?
+
+204
+00:10:18,780 --> 00:10:23,370
+So once you have this particular Python you can go ahead and start your coding.
+
+205
+00:10:23,400 --> 00:10:23,670
+Right.
+
+206
+00:10:23,670 --> 00:10:29,160
+You can probably create a file let's say test dot ipynb file.
+
+207
+00:10:29,250 --> 00:10:30,730
+And you can start your coding.
+
+208
+00:10:30,760 --> 00:10:31,300
+Okay.
+
+209
+00:10:31,360 --> 00:10:33,970
+But this is more about coding.
+
+210
+00:10:33,970 --> 00:10:35,410
+We will see in the next video.
+
+211
+00:10:35,410 --> 00:10:41,380
+But I hope I've shown you how you can open the VS code, how you can do the installation of the VS code.
+
+212
+00:10:41,380 --> 00:10:45,580
+And all right, so two things I've actually focused on this particular video.
+
+213
+00:10:45,610 --> 00:10:48,070
+One was downloading your anaconda.
+
+214
+00:10:48,070 --> 00:10:50,440
+One was setting up your path environment.
+
+215
+00:10:50,440 --> 00:10:52,720
+Make sure to do that check box okay.
+
+216
+00:10:52,720 --> 00:10:56,050
+And the second thing that you really need to download is your VS code.
+
+217
+00:10:56,050 --> 00:10:57,400
+That is Visual Studio Code.
+
+218
+00:10:57,430 --> 00:10:59,020
+Double click it, install it.
+
+219
+00:10:59,050 --> 00:11:03,880
+Then in any folder location, let's say in this Python folder location, what I've done through my command
+
+220
+00:11:03,880 --> 00:11:09,250
+prompt, I've gone to this particular location and I've just written code space dot.
+
+221
+00:11:09,280 --> 00:11:12,880
+Once I write code space dot, my VS code will get opened.
+
+222
+00:11:13,030 --> 00:11:17,110
+So I hope you are able to understand this particular video in this entire course.
+
+223
+00:11:17,110 --> 00:11:23,710
+I'm going to use VS code as my ID, but if you still face any problem because of some or the other thing,
+
+224
+00:11:23,710 --> 00:11:26,500
+you can even start with Google Colab, right?
+
+225
+00:11:26,680 --> 00:11:30,880
+If you still face any kind of issues, please make sure that you write down in the discussion forum.
+
+226
+00:11:30,910 --> 00:11:31,390
+Right?
+
+227
+00:11:31,390 --> 00:11:33,010
+So yes, this was it from my side.
+
+228
+00:11:33,010 --> 00:11:34,030
+I will see you in the next video.
+
+229
+00:11:34,030 --> 00:11:34,270
+Thank you.

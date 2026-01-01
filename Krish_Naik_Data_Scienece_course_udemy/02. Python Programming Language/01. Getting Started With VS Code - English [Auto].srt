@@ -1,0 +1,835 @@
+1
+00:00:00,460 --> 00:00:01,090
+Hello guys.
+
+2
+00:00:01,090 --> 00:00:02,980
+So welcome to the Python series.
+
+3
+00:00:02,980 --> 00:00:08,020
+Uh, now we are going to start our first session with respect to Python.
+
+4
+00:00:08,020 --> 00:00:13,390
+Now, what we are going to do in this video is that, uh, uh, and the entire code that I'm actually
+
+5
+00:00:13,390 --> 00:00:17,920
+going to specifically write, I'm going to use the VS code IDE, uh, vs code IDE.
+
+6
+00:00:17,950 --> 00:00:24,280
+I find it really amazing because here you will be able to execute your Jupyter notebook files, your.py
+
+7
+00:00:24,310 --> 00:00:24,670
+files.
+
+8
+00:00:24,670 --> 00:00:28,900
+Along with that, you'll also be able to create all the environments very much easily.
+
+9
+00:00:29,170 --> 00:00:32,680
+Uh, so it is feasible that I specifically use VS code.
+
+10
+00:00:32,680 --> 00:00:37,960
+Along with that, you have lot of features like extensions, code assistance, and many more things.
+
+11
+00:00:38,170 --> 00:00:43,510
+So the first step, uh, as we have seen starting, you know, uh, what I'm actually going to do is
+
+12
+00:00:43,510 --> 00:00:50,110
+that over here, we are going to create our new environment, as I said, um, in this Python series,
+
+13
+00:00:50,110 --> 00:00:53,950
+I'm going to use the newest Python version that is Python 3.12.
+
+14
+00:00:53,950 --> 00:00:59,590
+And, uh, I am going to teach in such a way that we all, we see all the new features that have actually
+
+15
+00:00:59,590 --> 00:01:03,220
+come from 3.10 to 3.12.
+
+16
+00:01:03,220 --> 00:01:08,170
+So all the new features that are specifically there, uh, we will be also discussing about them in
+
+17
+00:01:08,170 --> 00:01:09,340
+this Python series.
+
+18
+00:01:09,850 --> 00:01:14,350
+Uh, the first step, as you know, that, uh, I'm going to create an environment and again, why you
+
+19
+00:01:14,350 --> 00:01:19,360
+specifically require an environment because, uh, an environment is, uh, necessary whenever you start
+
+20
+00:01:19,360 --> 00:01:20,410
+a new project.
+
+21
+00:01:20,410 --> 00:01:26,110
+Because in our Python project or in our data science project, we make sure that we use multiple packages,
+
+22
+00:01:26,110 --> 00:01:27,430
+multiple libraries and.
+
+23
+00:01:27,430 --> 00:01:27,760
+All right.
+
+24
+00:01:27,760 --> 00:01:33,310
+And, uh, every couple of months this packages or this libraries have new features and most of them
+
+25
+00:01:33,310 --> 00:01:34,900
+are open source packages or libraries.
+
+26
+00:01:34,900 --> 00:01:35,080
+Right.
+
+27
+00:01:35,080 --> 00:01:39,880
+So they definitely have a lot of features that gets included every couple of months.
+
+28
+00:01:39,880 --> 00:01:45,610
+So it is always necessary that you always maintain, uh, or try to create your entire projects in a
+
+29
+00:01:45,610 --> 00:01:50,980
+separate, uh, with a separate environment so that there should be not any conflict, as you probably
+
+30
+00:01:50,980 --> 00:01:55,720
+go ahead, uh, whenever a new feature is probably coming up, you know, with respect to the packages,
+
+31
+00:01:55,720 --> 00:01:59,500
+uh, you can actually create a new project and create a new environment out there.
+
+32
+00:01:59,500 --> 00:02:03,940
+But here, uh, the first step, what I'm actually going to do is that let's go ahead and create our
+
+33
+00:02:03,940 --> 00:02:04,390
+environment.
+
+34
+00:02:04,390 --> 00:02:07,570
+And for this also I will be using Conda command.
+
+35
+00:02:07,570 --> 00:02:10,180
+So first of all I'll not go ahead and write in PowerShell.
+
+36
+00:02:10,180 --> 00:02:13,030
+Instead I'll go and click on uh Command prompt.
+
+37
+00:02:13,030 --> 00:02:15,550
+So quickly let's go ahead and write it down.
+
+38
+00:02:15,550 --> 00:02:21,880
+So here I'm going to write conda create minus p v and v python uh double equal to.
+
+39
+00:02:21,880 --> 00:02:25,030
+Let's say I want to go ahead with Python 3.12 okay.
+
+40
+00:02:25,030 --> 00:02:31,960
+And uh understand one thing is that, uh over here we are using this conda create command v and v is
+
+41
+00:02:31,960 --> 00:02:37,150
+specifically your environment name and which Python version we are specifically using.
+
+42
+00:02:37,150 --> 00:02:38,110
+It is 3.12.
+
+43
+00:02:38,140 --> 00:02:40,510
+Again based on different different projects.
+
+44
+00:02:40,510 --> 00:02:43,420
+It is not necessary that you always need to use 3.12.
+
+45
+00:02:43,420 --> 00:02:48,040
+It depends on the kind of packages that are available, let's say open source packages.
+
+46
+00:02:48,040 --> 00:02:51,850
+When we are creating deep learning projects or any machine learning projects as such.
+
+47
+00:02:51,850 --> 00:02:52,060
+Right.
+
+48
+00:02:52,060 --> 00:02:56,680
+So but here, uh, since we are learning this Python series completely from basics, I'm going to go
+
+49
+00:02:56,680 --> 00:02:58,120
+ahead and use this environment.
+
+50
+00:02:58,120 --> 00:02:59,740
+So once I probably click this.
+
+51
+00:02:59,740 --> 00:03:03,340
+So here you'll be able to see the installation will start taking place.
+
+52
+00:03:03,340 --> 00:03:09,040
+And when we are creating a virtual environment, some basic libraries or packages will be automatically
+
+53
+00:03:09,040 --> 00:03:10,780
+downloaded by this conda command.
+
+54
+00:03:10,780 --> 00:03:17,050
+So now here uh you can see over here what are the basic commands, uh, basic new packages that are
+
+55
+00:03:17,050 --> 00:03:18,280
+basically getting installed.
+
+56
+00:03:18,280 --> 00:03:20,110
+So here are all the packages.
+
+57
+00:03:20,110 --> 00:03:23,320
+So I'm just going to go ahead and click on uh press Y.
+
+58
+00:03:23,320 --> 00:03:27,940
+And once I probably do this all the installation of the libraries will happen.
+
+59
+00:03:27,940 --> 00:03:28,360
+Right.
+
+60
+00:03:28,360 --> 00:03:30,790
+So uh, it is going to take some amount of time.
+
+61
+00:03:30,790 --> 00:03:32,650
+Again, it depends on your internet speed.
+
+62
+00:03:32,650 --> 00:03:34,360
+But let me just go ahead and show you.
+
+63
+00:03:34,360 --> 00:03:37,660
+So here you can see a V and V environment is basically created.
+
+64
+00:03:37,660 --> 00:03:40,990
+And these are all the default packages that you will be able to find out.
+
+65
+00:03:40,990 --> 00:03:43,690
+Inside this right there will be a DLL folder.
+
+66
+00:03:43,690 --> 00:03:45,520
+There will be an include folder.
+
+67
+00:03:45,520 --> 00:03:45,820
+Right.
+
+68
+00:03:45,820 --> 00:03:50,890
+So uh what is the basic environment that is required for any Python project.
+
+69
+00:03:50,890 --> 00:03:54,010
+Uh, so that will be covered up inside this particular folder.
+
+70
+00:03:54,010 --> 00:03:54,520
+Okay.
+
+71
+00:03:54,790 --> 00:04:00,520
+Now once you go ahead and click this uh, now the next thing is that let's say um, you want to activate
+
+72
+00:04:00,520 --> 00:04:01,600
+this environment, right?
+
+73
+00:04:01,600 --> 00:04:05,410
+So in order to activate this environment I will go ahead and write conda activate.
+
+74
+00:04:05,410 --> 00:04:09,370
+And we go ahead and use this v and v folder itself.
+
+75
+00:04:09,370 --> 00:04:09,610
+Right.
+
+76
+00:04:09,610 --> 00:04:11,020
+The same v and v folder.
+
+77
+00:04:11,020 --> 00:04:13,960
+And here we are just going to give the location of this right.
+
+78
+00:04:13,960 --> 00:04:19,570
+So once we press this you'll be able to see that I have activated the V and V environment okay.
+
+79
+00:04:19,750 --> 00:04:27,010
+And now you can probably run any kind of.py files directly from here by using Python specifically.
+
+80
+00:04:27,010 --> 00:04:31,180
+Let's say I probably go ahead and create my app.py.
+
+81
+00:04:31,180 --> 00:04:35,950
+And let's say that I am just going to write over here print one plus one.
+
+82
+00:04:35,950 --> 00:04:36,490
+Right.
+
+83
+00:04:36,490 --> 00:04:41,350
+So this is the basic command uh, and I'm printing this particular numerical operation one plus one.
+
+84
+00:04:41,350 --> 00:04:47,110
+Now if I really want to run this app.py, I have to make sure that I'm in the same folder location.
+
+85
+00:04:47,110 --> 00:04:49,090
+I have activated my v env environment.
+
+86
+00:04:49,090 --> 00:04:53,740
+And now within this particular environment, we will go ahead and just execute this file.
+
+87
+00:04:53,740 --> 00:04:57,010
+In order to execute it you just need to write python app.py.
+
+88
+00:04:57,190 --> 00:04:59,560
+So once you do this here you'll be able to see that I'm.
+
+89
+00:04:59,800 --> 00:05:01,000
+Able to get the response.
+
+90
+00:05:01,000 --> 00:05:01,480
+Okay.
+
+91
+00:05:01,720 --> 00:05:07,180
+Now, uh, let me show you one more thing, because, see, uh, as we go ahead with more lectures.
+
+92
+00:05:07,180 --> 00:05:07,480
+Right.
+
+93
+00:05:07,480 --> 00:05:09,400
+I'm actually going to create a folder.
+
+94
+00:05:09,400 --> 00:05:13,360
+Let's say this is first folder is Python basics okay.
+
+95
+00:05:13,480 --> 00:05:14,680
+Python basics.
+
+96
+00:05:14,680 --> 00:05:20,530
+So inside this folder itself I will go ahead and create my Jupyter notebook file or.py file.
+
+97
+00:05:20,530 --> 00:05:21,640
+Anything that I require.
+
+98
+00:05:21,640 --> 00:05:25,270
+Let's say I go ahead and create my Jupyter notebook file by default.
+
+99
+00:05:25,270 --> 00:05:28,150
+Uh, let's say this is my test dot ipynb.
+
+100
+00:05:28,330 --> 00:05:34,120
+Okay, now this Jupyter notebook file, uh, will be the similar Jupyter notebook file that we actually
+
+101
+00:05:34,120 --> 00:05:35,890
+use in, uh, Anaconda.
+
+102
+00:05:35,890 --> 00:05:36,220
+Right.
+
+103
+00:05:36,220 --> 00:05:41,350
+Uh, the Jupyter notebook, but in Python also, uh, sorry, in VS code, you will be able to see that.
+
+104
+00:05:41,350 --> 00:05:46,150
+Yes, internally you will be able to execute this text, uh, this uh, Jupyter notebook file also.
+
+105
+00:05:46,150 --> 00:05:51,760
+Now initially if I go ahead and uh, let's say over here, an option is probably coming up saying that,
+
+106
+00:05:51,760 --> 00:05:53,320
+hey, detecting kernels.
+
+107
+00:05:53,320 --> 00:05:59,620
+So if I want to say select the same environment, right V and V I can go ahead and click on Detect kernels.
+
+108
+00:05:59,620 --> 00:06:03,070
+So here you'll get an option of selecting the Python environment.
+
+109
+00:06:03,070 --> 00:06:05,560
+Let's say this is the environment that I have created right.
+
+110
+00:06:05,860 --> 00:06:08,890
+Uh v and v Python 3.12.0.
+
+111
+00:06:08,890 --> 00:06:13,210
+And these are all the other environments that I've actually created in my, uh, local system.
+
+112
+00:06:13,210 --> 00:06:13,510
+Right.
+
+113
+00:06:13,510 --> 00:06:16,420
+So I'm just going to go ahead and select uh, 3.12.
+
+114
+00:06:16,420 --> 00:06:17,350
+Oh okay.
+
+115
+00:06:17,350 --> 00:06:19,510
+Now let's go ahead and execute any code.
+
+116
+00:06:19,510 --> 00:06:19,720
+Right.
+
+117
+00:06:19,720 --> 00:06:21,370
+So this is my code cell okay.
+
+118
+00:06:21,370 --> 00:06:25,480
+I can create any number of code cell that I really want right now.
+
+119
+00:06:25,480 --> 00:06:26,290
+Code cell is nothing.
+
+120
+00:06:26,290 --> 00:06:30,070
+But here I will be writing all my Python code in order to execute it.
+
+121
+00:06:30,190 --> 00:06:32,380
+Along with that you also have something like markdown.
+
+122
+00:06:32,380 --> 00:06:36,310
+So let's say that I, uh I have this markdown cell.
+
+123
+00:06:36,310 --> 00:06:38,740
+I can basically write comments saying like this.
+
+124
+00:06:38,740 --> 00:06:38,980
+Right.
+
+125
+00:06:38,980 --> 00:06:40,600
+Let's say Python example.
+
+126
+00:06:40,600 --> 00:06:46,840
+And if I execute it, in order to execute this cell I have to press shift enter.
+
+127
+00:06:46,840 --> 00:06:47,260
+Okay.
+
+128
+00:06:47,260 --> 00:06:50,740
+So if I probably press shift enter automatically this will get executed.
+
+129
+00:06:50,740 --> 00:06:55,180
+Now the the reason we have used some markdown because I needed to write some information over here.
+
+130
+00:06:55,180 --> 00:06:56,440
+So like title and all.
+
+131
+00:06:56,440 --> 00:06:57,700
+So I'm writing it over here.
+
+132
+00:06:57,700 --> 00:06:58,240
+Right.
+
+133
+00:06:58,240 --> 00:07:02,200
+So if you press shift enter then automatically this cell will get executed.
+
+134
+00:07:02,620 --> 00:07:07,750
+Uh along with this you also have an option of run all you know, if you want to run all the cells over
+
+135
+00:07:07,750 --> 00:07:13,240
+here, if you go ahead and, uh, see if you just go, go ahead and press right click, you'll be having
+
+136
+00:07:13,240 --> 00:07:14,590
+so many different, different options.
+
+137
+00:07:14,590 --> 00:07:15,040
+Okay.
+
+138
+00:07:15,040 --> 00:07:20,140
+But we are just going to use shift run uh shift enter so that we'll be able to execute it okay.
+
+139
+00:07:20,410 --> 00:07:21,310
+Now this is fine.
+
+140
+00:07:21,310 --> 00:07:24,190
+Let's run our first code in Jupyter Notebook.
+
+141
+00:07:24,190 --> 00:07:25,810
+So if I am going to write one plus one.
+
+142
+00:07:25,810 --> 00:07:29,950
+So here you can see I'm getting an error running cell with v and v.
+
+143
+00:07:29,950 --> 00:07:34,720
+Python 3.0120 requires the ipykernel package.
+
+144
+00:07:34,720 --> 00:07:35,110
+Okay.
+
+145
+00:07:35,110 --> 00:07:40,570
+So this is one of the requirement that we really need to do, uh, we need to install Ipykernel.
+
+146
+00:07:40,570 --> 00:07:40,990
+Okay.
+
+147
+00:07:40,990 --> 00:07:44,320
+So here I'm what I'm going to write is that pip install.
+
+148
+00:07:44,320 --> 00:07:49,210
+If I want to install any packages I have to just go ahead and write pip install Ipykernel.
+
+149
+00:07:49,210 --> 00:07:49,630
+Okay.
+
+150
+00:07:49,630 --> 00:07:55,420
+So once I probably do this you'll be able to see that if I press enter you'll be seeing that hey, my
+
+151
+00:07:55,420 --> 00:07:57,340
+Ipykernel is basically getting installed now.
+
+152
+00:07:57,340 --> 00:07:59,140
+What is this Ipykernel package?
+
+153
+00:07:59,140 --> 00:08:03,940
+Ipykernel package is nothing but it provides a kernel to this specific Jupyter notebook, which will
+
+154
+00:08:03,940 --> 00:08:07,570
+be responsible in executing the Python code, right?
+
+155
+00:08:07,570 --> 00:08:10,840
+It is pretty much necessary and compulsory in Anaconda.
+
+156
+00:08:10,840 --> 00:08:14,920
+The default Jupyter notebook has Ipykernel already integrated to it.
+
+157
+00:08:14,920 --> 00:08:17,560
+Okay, so this is the first thing that you really need to do.
+
+158
+00:08:17,560 --> 00:08:22,870
+Whenever you want to run the Jupyter notebook, you just go ahead and write pip install Ipykernel.
+
+159
+00:08:22,870 --> 00:08:27,160
+One more thing that you can actually do is that here what I will do, I will go ahead and create one
+
+160
+00:08:27,160 --> 00:08:32,950
+requirement dot txt because this requirement dot txt you know later on whatever packages I want.
+
+161
+00:08:32,950 --> 00:08:35,380
+Let's say the first package I want is Ipykernel.
+
+162
+00:08:35,380 --> 00:08:40,630
+I'll keep a note of this over here and any number of packages I will be requiring let's say in the future
+
+163
+00:08:40,630 --> 00:08:44,230
+classes you'll be seeing pandas numpy different different packages.
+
+164
+00:08:44,230 --> 00:08:46,570
+So we will try to install it from here itself.
+
+165
+00:08:46,570 --> 00:08:50,920
+We'll write over here and we'll run this requirement dot txt which will be responsible in installing
+
+166
+00:08:50,920 --> 00:08:51,790
+all the packages.
+
+167
+00:08:51,790 --> 00:08:55,480
+Now you can see that uh, the Ipykernel has got successfully executed.
+
+168
+00:08:55,480 --> 00:08:57,940
+Now let me just go ahead and run this same code.
+
+169
+00:08:57,940 --> 00:09:00,310
+So here you'll be able to see if I run this same code.
+
+170
+00:09:00,310 --> 00:09:01,960
+Now it is just going to execute.
+
+171
+00:09:01,960 --> 00:09:03,640
+It is saying that connecting to kernel.
+
+172
+00:09:03,640 --> 00:09:05,830
+And here I am having my output.
+
+173
+00:09:05,830 --> 00:09:06,280
+Right.
+
+174
+00:09:06,280 --> 00:09:09,670
+So now I can probably go ahead and write any type of code that I want.
+
+175
+00:09:09,670 --> 00:09:11,620
+Let's say I want to go ahead and write print.
+
+176
+00:09:11,650 --> 00:09:14,320
+Hello hello world.
+
+177
+00:09:14,320 --> 00:09:14,680
+Okay.
+
+178
+00:09:14,680 --> 00:09:15,610
+Something like this.
+
+179
+00:09:15,610 --> 00:09:19,600
+So here we'll be able to see that it is executing right for.py file.
+
+180
+00:09:19,600 --> 00:09:25,540
+I don't want any type of kernel because in the terminal in the terminal automatically that particular
+
+181
+00:09:25,540 --> 00:09:28,270
+terminal uh has this environment setup.
+
+182
+00:09:28,270 --> 00:09:28,600
+Right.
+
+183
+00:09:28,600 --> 00:09:33,400
+So in order to execute it I have to go ahead and write python app.py right.
+
+184
+00:09:33,610 --> 00:09:34,960
+Or whatever is the file name.
+
+185
+00:09:34,960 --> 00:09:40,840
+In this case, if I want to execute any cell, I have to just press that particular cell and press shift
+
+186
+00:09:40,840 --> 00:09:41,440
+enter.
+
+187
+00:09:41,440 --> 00:09:41,950
+Okay.
+
+188
+00:09:42,220 --> 00:09:46,960
+So in this video we have discussed about how you can go ahead and create your environment.
+
+189
+00:09:46,960 --> 00:09:51,850
+Because going forward, any session that is probably going to come up in this course, I'm going to
+
+190
+00:09:51,850 --> 00:09:54,010
+probably create a folder wise like this.
+
+191
+00:09:54,010 --> 00:09:59,530
+For first class I will probably create Python basics, create my Jupyter notebook file or.py file.
+
+192
+00:09:59,650 --> 00:10:01,150
+Execute all the code in front of you.
+
+193
+00:10:01,150 --> 00:10:03,490
+Write all the code in front of you and continue.
+
+194
+00:10:03,520 --> 00:10:03,880
+Right.
+
+195
+00:10:03,880 --> 00:10:08,770
+So for right now, I will just go ahead and delete this folder because I don't require it, because
+
+196
+00:10:08,770 --> 00:10:11,200
+at the end of the day, I will do one thing.
+
+197
+00:10:11,200 --> 00:10:12,220
+Okay, just a second.
+
+198
+00:10:12,220 --> 00:10:13,750
+I will just close this okay.
+
+199
+00:10:14,320 --> 00:10:14,770
+Yeah.
+
+200
+00:10:14,770 --> 00:10:16,660
+Now let me just go ahead and delete it.
+
+201
+00:10:16,660 --> 00:10:22,120
+Because in the next session I will go ahead and create everything from scratch requirement dot txt I
+
+202
+00:10:22,120 --> 00:10:24,850
+will keep it so that I keep on updating my packages.
+
+203
+00:10:24,850 --> 00:10:27,430
+So yes, this was it for my side.
+
+204
+00:10:27,430 --> 00:10:29,650
+I hope uh you like this video.
+
+205
+00:10:29,650 --> 00:10:33,310
+And in the next video we will start our Python basics.
+
+206
+00:10:33,310 --> 00:10:34,930
+So yes, this was it.
+
+207
+00:10:34,930 --> 00:10:35,440
+Thank you.
+
+208
+00:10:35,440 --> 00:10:35,950
+Take care.
+
+209
+00:10:35,950 --> 00:10:36,520
+Bye bye.

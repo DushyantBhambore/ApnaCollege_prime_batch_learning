@@ -1,0 +1,1683 @@
+1
+00:00:00,170 --> 00:00:00,710
+Hello guys.
+
+2
+00:00:00,710 --> 00:00:03,080
+So we are going to continue the discussion with respect to Python.
+
+3
+00:00:03,080 --> 00:00:05,840
+And in this video we are going to discuss about variables.
+
+4
+00:00:05,840 --> 00:00:06,410
+Okay.
+
+5
+00:00:06,410 --> 00:00:07,970
+Now what exactly is variables.
+
+6
+00:00:07,970 --> 00:00:10,700
+And uh here I've also given the entire video outline.
+
+7
+00:00:10,700 --> 00:00:15,500
+So we will first of all introduce uh like uh the topic is introduction to variables.
+
+8
+00:00:15,500 --> 00:00:18,200
+Then we'll be seeing how we can declare and assign variables.
+
+9
+00:00:18,200 --> 00:00:20,150
+Then we'll talk about the naming convention.
+
+10
+00:00:20,150 --> 00:00:21,920
+Then we'll understand variable type.
+
+11
+00:00:21,920 --> 00:00:24,560
+We'll see type checking and conversion dynamic typing.
+
+12
+00:00:24,560 --> 00:00:28,220
+And finally we'll be seeing a lot of practical examples and common errors okay.
+
+13
+00:00:28,220 --> 00:00:31,730
+So all these things will be specifically covered in this video okay.
+
+14
+00:00:31,730 --> 00:00:34,700
+Now first of all as usual let's go with the definition.
+
+15
+00:00:34,700 --> 00:00:39,470
+So variables are fundamental elements in programming used to store data that can be referenced and manipulated
+
+16
+00:00:39,470 --> 00:00:40,310
+in a program.
+
+17
+00:00:40,310 --> 00:00:46,730
+In Python, variables are created when you assign a value to them, and they do not need explicit declaration
+
+18
+00:00:46,730 --> 00:00:48,290
+to reserve memory space.
+
+19
+00:00:48,290 --> 00:00:52,310
+The declaration happens automatically when you assign a value to a variable.
+
+20
+00:00:52,310 --> 00:00:52,940
+Okay.
+
+21
+00:00:52,940 --> 00:00:57,500
+So, uh, the best way to give you an example is that let's say if I define a is equal to 100.
+
+22
+00:00:57,500 --> 00:00:59,240
+So this basically becomes the variable.
+
+23
+00:00:59,240 --> 00:01:04,130
+And always remember guys, whenever you start a new notebook file always make sure to select the kernel
+
+24
+00:01:04,130 --> 00:01:04,520
+okay.
+
+25
+00:01:04,520 --> 00:01:06,410
+Now if I'm going to write a is equal to 100.
+
+26
+00:01:06,410 --> 00:01:10,820
+This basically means that I've created a variable a and I've assigned a value to 100.
+
+27
+00:01:10,820 --> 00:01:11,270
+Okay.
+
+28
+00:01:11,570 --> 00:01:16,700
+Now uh, obviously in my previous video I've also defined some basic variables and all, and I've assigned
+
+29
+00:01:16,700 --> 00:01:21,470
+some values, let's say string, numerical uh, integers, floating point, anything, any values you
+
+30
+00:01:21,470 --> 00:01:22,790
+can basically assign.
+
+31
+00:01:23,210 --> 00:01:24,770
+Uh, we'll be learning more about it.
+
+32
+00:01:24,770 --> 00:01:34,370
+Uh, so first of all let's go ahead and understanding about declaring, declaring and assigning variables.
+
+33
+00:01:34,370 --> 00:01:34,850
+Okay.
+
+34
+00:01:35,390 --> 00:01:40,100
+So here, uh, you'll be able to see that, uh, let's say I'm going to define age is equal to 32.
+
+35
+00:01:40,100 --> 00:01:45,530
+I'm going to probably define height is equal to six feet or 6.1.
+
+36
+00:01:45,530 --> 00:01:47,060
+That is specifically my height.
+
+37
+00:01:47,060 --> 00:01:48,110
+So I'm writing it down.
+
+38
+00:01:48,110 --> 00:01:49,700
+So height is equal to 6.1.
+
+39
+00:01:49,700 --> 00:01:53,690
+Then let's say name is equal to my name I will go ahead and define crush.
+
+40
+00:01:54,200 --> 00:01:58,730
+Uh and then here you can also see that I can also define a boolean variable.
+
+41
+00:01:58,730 --> 00:02:02,660
+Let's say I will go ahead and define is underscore student okay.
+
+42
+00:02:02,660 --> 00:02:04,670
+I will also talk about naming convention.
+
+43
+00:02:04,670 --> 00:02:07,100
+Uh what is the best naming convention of defining a variable.
+
+44
+00:02:07,100 --> 00:02:08,360
+What are the good practices.
+
+45
+00:02:08,360 --> 00:02:09,800
+Everything I'll be discussing about.
+
+46
+00:02:09,800 --> 00:02:12,890
+So let's say I'm going to define a boolean variable as true right.
+
+47
+00:02:12,890 --> 00:02:15,680
+We'll learn more about the specific data types in my next video.
+
+48
+00:02:15,680 --> 00:02:17,720
+But here I'm just giving you an example okay.
+
+49
+00:02:17,720 --> 00:02:19,040
+So age is equal to 32.
+
+50
+00:02:19,040 --> 00:02:19,970
+This this is there.
+
+51
+00:02:19,970 --> 00:02:21,950
+And I have actually written it right now.
+
+52
+00:02:21,950 --> 00:02:23,990
+Let me quickly go ahead and print it.
+
+53
+00:02:23,990 --> 00:02:26,330
+And this is how we assign a variable right.
+
+54
+00:02:26,330 --> 00:02:28,820
+We are declaring a variable and we signing some values.
+
+55
+00:02:28,820 --> 00:02:29,270
+Right.
+
+56
+00:02:29,270 --> 00:02:34,310
+So now let me just go ahead and print printing the variables.
+
+57
+00:02:34,310 --> 00:02:34,790
+Right.
+
+58
+00:02:34,790 --> 00:02:36,080
+So here you can see.
+
+59
+00:02:36,200 --> 00:02:39,830
+So now first of all I'm going to print age right.
+
+60
+00:02:39,830 --> 00:02:45,440
+And this is where I will also show you how you can use uh different print, how you can uh, display
+
+61
+00:02:45,440 --> 00:02:46,730
+in your console in a different way.
+
+62
+00:02:46,730 --> 00:02:48,800
+So first of all, let's say I want to print age.
+
+63
+00:02:48,800 --> 00:02:53,420
+So age colon let's say I want to assign this age colon with some value over here.
+
+64
+00:02:53,420 --> 00:02:55,250
+So I will go ahead and define my variable age.
+
+65
+00:02:55,250 --> 00:02:55,700
+Right.
+
+66
+00:02:55,700 --> 00:03:00,980
+Similarly, if I go ahead and show you the next print statement here, I'm going to basically write
+
+67
+00:03:00,980 --> 00:03:02,540
+height okay.
+
+68
+00:03:02,540 --> 00:03:06,050
+And with respect to this particular height I am going to define another variable.
+
+69
+00:03:06,050 --> 00:03:08,000
+Let's say this will basically be my height.
+
+70
+00:03:08,180 --> 00:03:12,140
+Another next thing that I'm going to print over here is my name.
+
+71
+00:03:12,260 --> 00:03:17,060
+And here you can probably see that I'm going to basically define my name.
+
+72
+00:03:17,060 --> 00:03:19,040
+And let me just go ahead and write comma.
+
+73
+00:03:19,040 --> 00:03:20,780
+And this will basically be my name.
+
+74
+00:03:20,780 --> 00:03:21,260
+Right.
+
+75
+00:03:21,260 --> 00:03:25,610
+So if I want to define all these things you here, you can see I'm displaying age is equal to 32.
+
+76
+00:03:25,640 --> 00:03:26,990
+Height is equal to 6.1.
+
+77
+00:03:26,990 --> 00:03:28,010
+Name is equal to crush.
+
+78
+00:03:28,010 --> 00:03:32,540
+That basically means see, when I'm printing I can also call this particular variable that I have actually
+
+79
+00:03:32,540 --> 00:03:32,930
+defined.
+
+80
+00:03:32,930 --> 00:03:33,410
+Okay.
+
+81
+00:03:33,530 --> 00:03:38,780
+So these are some of the ways uh again we will be discussing about more different boolean type, more
+
+82
+00:03:38,780 --> 00:03:40,610
+different data types as we go ahead.
+
+83
+00:03:40,610 --> 00:03:43,190
+And that is how we declare different different variables.
+
+84
+00:03:43,190 --> 00:03:46,970
+But just a basic idea for you with respect to the variable declaration.
+
+85
+00:03:47,030 --> 00:03:47,480
+Okay.
+
+86
+00:03:47,930 --> 00:03:51,200
+Now coming to the next one, which is basically called as naming convention.
+
+87
+00:03:51,200 --> 00:03:52,790
+And this is the most important one.
+
+88
+00:03:52,790 --> 00:03:58,970
+Like how should we name a variable right then for this you really need to know about the naming convention.
+
+89
+00:03:59,750 --> 00:04:05,480
+Some of the important points that I would like to mention over here, let's say uh, variables, uh,
+
+90
+00:04:05,480 --> 00:04:06,110
+name.
+
+91
+00:04:06,110 --> 00:04:06,380
+Right.
+
+92
+00:04:06,380 --> 00:04:14,540
+The variable name that we define right should be should be descriptive.
+
+93
+00:04:15,140 --> 00:04:15,740
+Okay.
+
+94
+00:04:15,740 --> 00:04:16,550
+Then.
+
+95
+00:04:16,550 --> 00:04:24,650
+Uh, the second point that I would like to mention, they must always start with a letter.
+
+96
+00:04:24,650 --> 00:04:24,890
+Okay.
+
+97
+00:04:24,890 --> 00:04:26,360
+So this is the second condition.
+
+98
+00:04:26,360 --> 00:04:29,750
+Or it can also start with an underscore okay.
+
+99
+00:04:29,750 --> 00:04:33,170
+Underscore like underscore uh this kind of underscore mark.
+
+100
+00:04:33,170 --> 00:04:33,680
+Right.
+
+101
+00:04:33,800 --> 00:04:42,830
+And uh it can contain letters numbers and underscore in between.
+
+102
+00:04:42,830 --> 00:04:43,400
+Right.
+
+103
+00:04:43,910 --> 00:04:44,660
+In between.
+
+104
+00:04:44,660 --> 00:04:49,130
+But always understand they must always start with a letter or underscore.
+
+105
+00:04:49,250 --> 00:04:52,790
+And it can contain letters numbers and underscores okay.
+
+106
+00:04:52,790 --> 00:04:53,840
+Within inside that.
+
+107
+00:04:53,840 --> 00:04:54,260
+Okay.
+
+108
+00:04:55,520 --> 00:04:56,990
+And uh, one more thing.
+
+109
+00:04:56,990 --> 00:04:59,360
+Very important point, which I have already mentioned.
+
+110
+00:04:59,740 --> 00:05:00,340
+Variables.
+
+111
+00:05:00,340 --> 00:05:01,720
+Names are.
+
+112
+00:05:03,150 --> 00:05:04,560
+Case sensitive.
+
+113
+00:05:05,100 --> 00:05:05,670
+Okay.
+
+114
+00:05:05,670 --> 00:05:06,930
+This also have defined it.
+
+115
+00:05:06,930 --> 00:05:10,680
+So these are some of the naming important naming convention with respect to the variables.
+
+116
+00:05:10,710 --> 00:05:11,190
+Okay.
+
+117
+00:05:11,190 --> 00:05:13,590
+Now let's see some kind of example over here.
+
+118
+00:05:13,590 --> 00:05:17,970
+So first of all I will just go ahead and write some valid variable name okay.
+
+119
+00:05:17,970 --> 00:05:20,160
+So valid variable names.
+
+120
+00:05:20,160 --> 00:05:26,370
+So first valid variable name I'm going to define it as first underscore name is equal to crush okay.
+
+121
+00:05:26,820 --> 00:05:30,540
+Uh last underscore name is equal to Nick.
+
+122
+00:05:30,540 --> 00:05:30,840
+Right.
+
+123
+00:05:30,840 --> 00:05:34,170
+So is this a good way of writing a variable.
+
+124
+00:05:34,170 --> 00:05:34,620
+Yes.
+
+125
+00:05:34,620 --> 00:05:35,970
+Does it start with a letter.
+
+126
+00:05:35,970 --> 00:05:36,360
+Yes.
+
+127
+00:05:36,360 --> 00:05:37,560
+It starts with a letter.
+
+128
+00:05:37,650 --> 00:05:41,640
+Does can it contain letter number or numbers or underscores.
+
+129
+00:05:41,640 --> 00:05:42,540
+Yes it can contain.
+
+130
+00:05:42,540 --> 00:05:45,570
+So here you can see I am having letters or underscore.
+
+131
+00:05:45,570 --> 00:05:49,050
+I can also put numbers in between but not in the starting right.
+
+132
+00:05:49,050 --> 00:05:51,780
+So this is a good way of defining a variable.
+
+133
+00:05:51,780 --> 00:05:52,170
+Okay.
+
+134
+00:05:52,170 --> 00:05:55,050
+So here uh this absolutely works fine.
+
+135
+00:05:55,050 --> 00:06:02,700
+Let me say show you some invalid variable name, invalid variable names okay.
+
+136
+00:06:02,700 --> 00:06:05,640
+So let's say that I define with a number.
+
+137
+00:06:05,640 --> 00:06:05,910
+Right.
+
+138
+00:06:05,910 --> 00:06:08,430
+And if I go ahead and define over here age is equal to 30.
+
+139
+00:06:08,460 --> 00:06:11,790
+See I'm getting an error saying that invalid decimal literal right.
+
+140
+00:06:11,790 --> 00:06:13,260
+So I cannot start with a letter.
+
+141
+00:06:13,260 --> 00:06:14,790
+So this is one way okay.
+
+142
+00:06:15,000 --> 00:06:20,280
+The another way is that uh can I define something like this first dash name.
+
+143
+00:06:20,580 --> 00:06:21,030
+Right.
+
+144
+00:06:21,030 --> 00:06:22,170
+Can I define like this.
+
+145
+00:06:22,170 --> 00:06:24,810
+First dash name is equal to let's say crush.
+
+146
+00:06:25,410 --> 00:06:26,490
+Can I define like this.
+
+147
+00:06:26,520 --> 00:06:27,480
+Will I get an error.
+
+148
+00:06:27,480 --> 00:06:30,720
+So here you can see cannot assign to expression here.
+
+149
+00:06:30,720 --> 00:06:34,410
+Maybe you mean double equal to or instead of equal to.
+
+150
+00:06:34,410 --> 00:06:36,030
+So this is not being considered.
+
+151
+00:06:36,030 --> 00:06:38,160
+This symbol is also not being used.
+
+152
+00:06:38,160 --> 00:06:38,730
+Right.
+
+153
+00:06:39,510 --> 00:06:43,110
+Uh so obviously this is also an invalid variable name.
+
+154
+00:06:43,110 --> 00:06:43,770
+Right.
+
+155
+00:06:43,770 --> 00:06:48,540
+The third invalid variable name can I use at the rate and define a name variable.
+
+156
+00:06:48,540 --> 00:06:49,050
+Right.
+
+157
+00:06:49,050 --> 00:06:51,180
+So let me just go ahead and check it out.
+
+158
+00:06:51,180 --> 00:06:53,430
+So here I'll just go ahead and write crush.
+
+159
+00:06:53,430 --> 00:06:54,540
+Will I get an error.
+
+160
+00:06:54,540 --> 00:06:55,950
+It says invalid syntax.
+
+161
+00:06:55,950 --> 00:06:57,540
+Maybe you meant so and so right.
+
+162
+00:06:57,540 --> 00:07:00,990
+So this is also not a valid variable name.
+
+163
+00:07:00,990 --> 00:07:03,090
+It is an invalid variable name okay.
+
+164
+00:07:03,090 --> 00:07:07,530
+And already I have spoken about case sensitive right.
+
+165
+00:07:07,530 --> 00:07:09,420
+Case sensitivity right.
+
+166
+00:07:09,420 --> 00:07:12,750
+If I define name is equal to crush.
+
+167
+00:07:13,530 --> 00:07:17,940
+And let's say I have defined capital name is equal to Nick.
+
+168
+00:07:17,940 --> 00:07:18,420
+Right.
+
+169
+00:07:18,420 --> 00:07:20,910
+Both this are different right.
+
+170
+00:07:20,910 --> 00:07:21,990
+It is not same.
+
+171
+00:07:21,990 --> 00:07:22,290
+Right.
+
+172
+00:07:22,290 --> 00:07:27,090
+If I really want to compare can I compare like this num name double equal to capital name.
+
+173
+00:07:27,210 --> 00:07:29,040
+It'll be giving false right?
+
+174
+00:07:29,040 --> 00:07:29,430
+Yes.
+
+175
+00:07:29,430 --> 00:07:30,000
+The values.
+
+176
+00:07:30,000 --> 00:07:31,500
+If it is same it will give me true.
+
+177
+00:07:31,500 --> 00:07:35,970
+But in short you can see that these are different identifiers, right?
+
+178
+00:07:35,970 --> 00:07:38,790
+Later on I can do the comparison operation and I can do it right.
+
+179
+00:07:38,790 --> 00:07:40,890
+So obviously case sensitivity is also there.
+
+180
+00:07:40,890 --> 00:07:41,340
+Right.
+
+181
+00:07:41,340 --> 00:07:45,360
+So this was uh related to something related to the naming conventions.
+
+182
+00:07:45,360 --> 00:07:45,900
+Okay.
+
+183
+00:07:45,900 --> 00:07:51,150
+Now let me just go ahead and make you understand about some of the variable types.
+
+184
+00:07:51,150 --> 00:07:51,690
+Okay.
+
+185
+00:07:51,690 --> 00:07:55,380
+So uh, we will continue the writing the code here itself.
+
+186
+00:07:55,380 --> 00:08:02,160
+So let me just go ahead and write understanding variable types okay.
+
+187
+00:08:02,490 --> 00:08:08,820
+Now one thing you need to understand Python is dynamically typed okay.
+
+188
+00:08:08,940 --> 00:08:11,370
+Dynamically typed.
+
+189
+00:08:12,530 --> 00:08:13,670
+What does this mean?
+
+190
+00:08:13,670 --> 00:08:16,490
+This means the type of a variable.
+
+191
+00:08:17,360 --> 00:08:22,340
+Type of a variable is determined at runtime.
+
+192
+00:08:23,420 --> 00:08:25,130
+Determined at runtime.
+
+193
+00:08:25,130 --> 00:08:25,670
+Right.
+
+194
+00:08:25,700 --> 00:08:27,980
+So this is very much important okay.
+
+195
+00:08:27,980 --> 00:08:32,270
+And some of the important data types are like int float string and boolean.
+
+196
+00:08:32,270 --> 00:08:32,720
+Right.
+
+197
+00:08:32,720 --> 00:08:35,690
+So let's say if I write age is equal to 25 right.
+
+198
+00:08:36,050 --> 00:08:40,100
+So when I execute it during the runtime it will understand.
+
+199
+00:08:40,100 --> 00:08:40,820
+Hey fine.
+
+200
+00:08:40,820 --> 00:08:42,260
+Integer is basically getting assigned.
+
+201
+00:08:42,260 --> 00:08:44,510
+So age is an integer variable right.
+
+202
+00:08:44,510 --> 00:08:48,920
+And let's say that I will go ahead and define some more variables right.
+
+203
+00:08:48,920 --> 00:08:52,850
+Let's say height right I'm going to basically go ahead and define height.
+
+204
+00:08:52,850 --> 00:08:54,590
+Let's say I'm going to write 6.1.
+
+205
+00:08:54,590 --> 00:08:57,740
+So this this is nothing but it is integer.
+
+206
+00:08:57,740 --> 00:08:59,960
+This is nothing but this is float.
+
+207
+00:08:59,960 --> 00:09:02,210
+See how I'm also using the single line comments.
+
+208
+00:09:02,210 --> 00:09:02,720
+Right.
+
+209
+00:09:02,720 --> 00:09:05,180
+Let's say if I'm going to define my name.
+
+210
+00:09:05,180 --> 00:09:06,620
+So this will basically be Chris.
+
+211
+00:09:06,620 --> 00:09:10,370
+So this is what this is nothing but str the string.
+
+212
+00:09:10,370 --> 00:09:12,950
+And finally if I go ahead and define is underscore student.
+
+213
+00:09:12,950 --> 00:09:15,170
+This is basically my boolean variable right.
+
+214
+00:09:15,170 --> 00:09:16,220
+So boolean.
+
+215
+00:09:16,220 --> 00:09:18,110
+Uh sorry I will assign it as true.
+
+216
+00:09:18,110 --> 00:09:20,390
+So this basically becomes my boolean variable.
+
+217
+00:09:20,540 --> 00:09:26,510
+Now if I go ahead and print the type of any of this right like age.
+
+218
+00:09:26,510 --> 00:09:28,100
+So I'm going to basically get integer.
+
+219
+00:09:28,100 --> 00:09:29,000
+The class will be integer.
+
+220
+00:09:29,000 --> 00:09:29,720
+During the runtime.
+
+221
+00:09:29,720 --> 00:09:30,920
+It is able to understand it.
+
+222
+00:09:30,920 --> 00:09:35,780
+If I go ahead and print what is the type of name I'm actually going to get string right.
+
+223
+00:09:35,780 --> 00:09:40,970
+So similarly you will be able to find out different different types like what classes it basically belongs
+
+224
+00:09:40,970 --> 00:09:41,300
+to.
+
+225
+00:09:41,330 --> 00:09:41,780
+Okay.
+
+226
+00:09:42,260 --> 00:09:44,810
+Now one more thing.
+
+227
+00:09:44,810 --> 00:09:50,180
+Right here I will discuss about one very important point and understand one thing guys.
+
+228
+00:09:50,180 --> 00:09:51,860
+Here I'll be showing some example.
+
+229
+00:09:51,860 --> 00:09:57,410
+But when I go ahead with more session, more different lessons as we go ahead, right.
+
+230
+00:09:57,410 --> 00:09:59,240
+I'll be reusing all these things.
+
+231
+00:09:59,240 --> 00:10:04,280
+Don't think that I'm just going to write for a single time over here, because this all things will
+
+232
+00:10:04,280 --> 00:10:05,270
+again get repeated.
+
+233
+00:10:05,270 --> 00:10:05,750
+Okay.
+
+234
+00:10:05,750 --> 00:10:07,610
+With all the different, different examples.
+
+235
+00:10:07,610 --> 00:10:11,990
+Now let me just go ahead and make you understand about type checking and conversion.
+
+236
+00:10:11,990 --> 00:10:12,440
+Okay.
+
+237
+00:10:12,650 --> 00:10:14,360
+Now type checking and conversion.
+
+238
+00:10:14,360 --> 00:10:15,530
+What does this basically mean.
+
+239
+00:10:15,530 --> 00:10:16,430
+Obviously type checking.
+
+240
+00:10:16,430 --> 00:10:17,180
+You have known right.
+
+241
+00:10:17,180 --> 00:10:19,760
+So if I go ahead and write type off height.
+
+242
+00:10:19,760 --> 00:10:24,230
+So that basically means I'm going to get the uh data type of this height variable.
+
+243
+00:10:24,230 --> 00:10:24,440
+Right.
+
+244
+00:10:24,440 --> 00:10:28,040
+So in short I'm actually getting float over here right now.
+
+245
+00:10:28,040 --> 00:10:32,450
+My question arises, can we convert one data type to the other data type.
+
+246
+00:10:32,570 --> 00:10:33,350
+Is it possible.
+
+247
+00:10:33,350 --> 00:10:34,730
+So let me just go and show you.
+
+248
+00:10:34,730 --> 00:10:38,090
+Let's say if I go ahead and write age is equal to 25 right now.
+
+249
+00:10:38,090 --> 00:10:44,090
+You know that if I go ahead and write print type of age, so what I'm actually going to get it is an
+
+250
+00:10:44,090 --> 00:10:45,320
+integer, right?
+
+251
+00:10:45,320 --> 00:10:48,620
+But now I am going to perform some type conversion.
+
+252
+00:10:48,620 --> 00:10:53,060
+Type conversion basically means I am going to convert this integer value into a string value.
+
+253
+00:10:53,060 --> 00:10:53,450
+Let's say.
+
+254
+00:10:53,660 --> 00:11:00,350
+So if I go ahead and write age underscore str, and if I go and use this str function right str function
+
+255
+00:11:00,350 --> 00:11:01,370
+is what string right.
+
+256
+00:11:01,370 --> 00:11:03,860
+This is what is the class that I'm actually getting.
+
+257
+00:11:03,860 --> 00:11:07,430
+Now if I want to convert this age into string I can use this str.
+
+258
+00:11:07,430 --> 00:11:12,590
+And I can use this age variable over here right now if I go ahead and write print age.
+
+259
+00:11:13,100 --> 00:11:16,610
+Print age underscore str okay.
+
+260
+00:11:16,610 --> 00:11:22,970
+And after that I will just go ahead and write print type of age underscore str right.
+
+261
+00:11:22,970 --> 00:11:26,240
+So if I go ahead and execute it see initially it was int.
+
+262
+00:11:26,240 --> 00:11:32,570
+Later on uh when I printed this age underscore str here you can probably see that I'm getting 25 okay.
+
+263
+00:11:32,780 --> 00:11:35,540
+But the type of this particular value is string.
+
+264
+00:11:35,540 --> 00:11:37,340
+Right here you can see string.
+
+265
+00:11:37,340 --> 00:11:41,600
+So this this value from integer it has got converted into strings okay.
+
+266
+00:11:41,870 --> 00:11:44,030
+Now the question arises Krish.
+
+267
+00:11:44,060 --> 00:11:46,490
+Uh what are different types of type conversion.
+
+268
+00:11:46,490 --> 00:11:47,630
+Can I do okay.
+
+269
+00:11:47,780 --> 00:11:49,610
+Can can I do something like this.
+
+270
+00:11:49,610 --> 00:11:50,420
+Can I write.
+
+271
+00:11:50,420 --> 00:11:52,820
+Age is equal to in string like 25.
+
+272
+00:11:52,820 --> 00:11:54,950
+And can I convert this into int.
+
+273
+00:11:55,130 --> 00:11:56,090
+Let's see.
+
+274
+00:11:56,510 --> 00:11:56,840
+Right.
+
+275
+00:11:56,840 --> 00:11:57,920
+Let's see this.
+
+276
+00:11:57,920 --> 00:11:59,210
+So the answer is yes.
+
+277
+00:11:59,210 --> 00:12:00,950
+You are able to convert it right.
+
+278
+00:12:00,950 --> 00:12:05,750
+So if I go ahead and print uh the type of int of age.
+
+279
+00:12:05,750 --> 00:12:07,850
+Yes definitely you are able to convert it.
+
+280
+00:12:07,850 --> 00:12:08,390
+Right.
+
+281
+00:12:08,390 --> 00:12:10,160
+And here I'm just going to close it.
+
+282
+00:12:10,160 --> 00:12:11,390
+Yes the class is int.
+
+283
+00:12:11,570 --> 00:12:16,790
+This is fine but still I will just go ahead and use one more.
+
+284
+00:12:16,790 --> 00:12:17,600
+Some more examples.
+
+285
+00:12:17,600 --> 00:12:26,450
+Let's say if I go ahead and write my name is Krish right now do I, can I convert this into an integer?
+
+286
+00:12:26,450 --> 00:12:28,190
+The answer is no, right?
+
+287
+00:12:28,190 --> 00:12:31,820
+Because obviously Krish is a complete sentence, right?
+
+288
+00:12:31,820 --> 00:12:36,590
+If I talk about 25 in string manner, this is basically a numerical value itself, right?
+
+289
+00:12:36,590 --> 00:12:40,370
+So even though it is an A string I can convert this into an int type.
+
+290
+00:12:40,370 --> 00:12:43,190
+But over here this is my string complete string.
+
+291
+00:12:43,190 --> 00:12:45,920
+I cannot just convert this into an integer type or a float type.
+
+292
+00:12:45,920 --> 00:12:50,660
+So here you basically get an error saying that invalid literal for int with base ten Krish.
+
+293
+00:12:50,660 --> 00:12:51,140
+Right?
+
+294
+00:12:51,140 --> 00:12:54,500
+So this is the value that you are able to get it over here right.
+
+295
+00:12:54,590 --> 00:12:56,300
+Another example some more example.
+
+296
+00:12:56,300 --> 00:12:58,010
+Let's define some float value.
+
+297
+00:12:58,010 --> 00:12:58,430
+Right.
+
+298
+00:12:58,430 --> 00:13:04,460
+So let's say my uh my height is nothing but 6.1 okay.
+
+299
+00:13:04,610 --> 00:13:09,530
+Or let's say 6.0 or 6 point or 5.11 okay.
+
+300
+00:13:09,530 --> 00:13:10,280
+Something.
+
+301
+00:13:10,280 --> 00:13:10,790
+Okay.
+
+302
+00:13:11,060 --> 00:13:12,170
+Now if I.
+
+303
+00:13:12,350 --> 00:13:16,430
+Go ahead and see the type of height, what exactly it is.
+
+304
+00:13:17,810 --> 00:13:19,580
+It is nothing but float, right?
+
+305
+00:13:19,580 --> 00:13:22,790
+Can I convert this float into an integer?
+
+306
+00:13:23,120 --> 00:13:24,110
+The answer is yes.
+
+307
+00:13:24,110 --> 00:13:29,300
+So if I go ahead and write int and I do the type casting for this particular height variable, you'll
+
+308
+00:13:29,300 --> 00:13:31,670
+be able to see that I'm able to get five right.
+
+309
+00:13:31,670 --> 00:13:33,890
+That basically means it is just going to remove the decimal.
+
+310
+00:13:33,890 --> 00:13:34,370
+Right.
+
+311
+00:13:34,370 --> 00:13:35,870
+Can I do the opposite again?
+
+312
+00:13:35,870 --> 00:13:39,200
+Can I again type cast this from int to float again?
+
+313
+00:13:39,200 --> 00:13:40,550
+Yes I can.
+
+314
+00:13:40,550 --> 00:13:43,250
+And it is going to give my 5.0 right.
+
+315
+00:13:43,250 --> 00:13:44,600
+So 5.11.
+
+316
+00:13:44,600 --> 00:13:47,450
+Initially I converted this into an integer I got 5.0.
+
+317
+00:13:47,450 --> 00:13:49,340
+Then again sorry I got five.
+
+318
+00:13:49,340 --> 00:13:51,410
+And then again I converted that into float.
+
+319
+00:13:51,410 --> 00:13:52,550
+So I got 5.0.
+
+320
+00:13:52,550 --> 00:13:57,950
+So this is some example with respect to the conversion right type checking conversion.
+
+321
+00:13:57,950 --> 00:14:01,520
+So this is what I really want to show you over here okay.
+
+322
+00:14:01,700 --> 00:14:03,890
+Now let me do one thing.
+
+323
+00:14:04,580 --> 00:14:10,100
+Let me talk about one very important concept which is called as dynamic typing okay.
+
+324
+00:14:10,100 --> 00:14:13,580
+And this is probably the most amazing feature in Python okay.
+
+325
+00:14:13,580 --> 00:14:19,670
+Let's say I'm going to define a variable ten okay I'm going to define a variable ten okay.
+
+326
+00:14:19,670 --> 00:14:23,660
+Now let me just go ahead and write print var.
+
+327
+00:14:25,760 --> 00:14:33,770
+Where I'm going to print this var and I'm going to also print type of var okay type of var perfect.
+
+328
+00:14:33,770 --> 00:14:35,510
+So this initially is an integer.
+
+329
+00:14:35,510 --> 00:14:37,580
+Then obviously it should give ten.
+
+330
+00:14:37,580 --> 00:14:38,540
+It should display ten.
+
+331
+00:14:38,540 --> 00:14:40,490
+And it should say that hey it is an integer.
+
+332
+00:14:40,790 --> 00:14:48,320
+Now Python allows the type of a variable to change as the program executes.
+
+333
+00:14:48,320 --> 00:14:48,590
+Right.
+
+334
+00:14:48,590 --> 00:14:50,450
+So let me write down this particular command.
+
+335
+00:14:50,540 --> 00:15:04,640
+Python allows the type of a variable to change to change as the program executes, right?
+
+336
+00:15:04,640 --> 00:15:05,180
+Amazing.
+
+337
+00:15:05,180 --> 00:15:05,780
+Right?
+
+338
+00:15:06,080 --> 00:15:07,490
+Now what does this basically mean?
+
+339
+00:15:07,490 --> 00:15:11,750
+Now I can go ahead and change the value of var and I can write hello.
+
+340
+00:15:11,750 --> 00:15:12,230
+Okay.
+
+341
+00:15:12,230 --> 00:15:17,270
+And let's say I'm going to print var comma type of var okay.
+
+342
+00:15:17,270 --> 00:15:20,120
+This time obviously you know what it will output will be string.
+
+343
+00:15:21,260 --> 00:15:23,570
+If you're not satisfied with this again you can change.
+
+344
+00:15:23,570 --> 00:15:27,740
+So as you keep on executing the code you can keep on changing it.
+
+345
+00:15:27,740 --> 00:15:30,470
+Let's say now this time I define it as a float variable.
+
+346
+00:15:30,470 --> 00:15:36,290
+Now if I go ahead and write print var okay var comma type of var.
+
+347
+00:15:36,290 --> 00:15:41,180
+So if I go ahead and execute this here, you'll be able to see that I'm able to get this right.
+
+348
+00:15:41,180 --> 00:15:45,140
+So see initially it was ten class int hello class str.
+
+349
+00:15:45,230 --> 00:15:47,930
+And finally 3.14 class is float.
+
+350
+00:15:47,930 --> 00:15:49,190
+So what is basically happening.
+
+351
+00:15:49,190 --> 00:15:54,110
+Python is allowing this type of a variable to change as the program gets executed.
+
+352
+00:15:54,110 --> 00:15:54,530
+Right.
+
+353
+00:15:54,530 --> 00:15:56,090
+So we can basically do this.
+
+354
+00:15:56,090 --> 00:15:56,510
+Okay.
+
+355
+00:15:56,870 --> 00:16:00,470
+Now uh, let's do one amazing thing.
+
+356
+00:16:00,470 --> 00:16:06,440
+Let's just create a simple, uh, application with whatever things we are specifically not.
+
+357
+00:16:06,440 --> 00:16:06,920
+Okay.
+
+358
+00:16:07,250 --> 00:16:09,770
+And before that, let me just talk about input.
+
+359
+00:16:09,770 --> 00:16:10,010
+Okay.
+
+360
+00:16:10,010 --> 00:16:11,180
+Now what exactly is input?
+
+361
+00:16:11,180 --> 00:16:15,500
+Let's say that, uh, a user wants to give some values, right.
+
+362
+00:16:15,500 --> 00:16:16,910
+Let's say age.
+
+363
+00:16:16,910 --> 00:16:20,000
+And I've told that hey, user, you give the value.
+
+364
+00:16:20,000 --> 00:16:21,230
+What is the age?
+
+365
+00:16:21,230 --> 00:16:21,770
+Okay.
+
+366
+00:16:22,010 --> 00:16:23,120
+What is the age.
+
+367
+00:16:23,120 --> 00:16:24,800
+So I, I am a user.
+
+368
+00:16:24,800 --> 00:16:26,660
+I want to probably give the value over here.
+
+369
+00:16:26,660 --> 00:16:34,400
+So if I use this right input function and if I print age over here see what will happen.
+
+370
+00:16:34,400 --> 00:16:37,220
+So once I execute this statement now see what will happen.
+
+371
+00:16:37,220 --> 00:16:40,850
+So here you can see uh a input box has got opened.
+
+372
+00:16:40,850 --> 00:16:45,920
+So here I'm just going to give my uh, age, let's say the age is 23 okay.
+
+373
+00:16:45,920 --> 00:16:47,240
+And I'm going to press enter.
+
+374
+00:16:47,240 --> 00:16:49,490
+So here you can see I'm printing the age now.
+
+375
+00:16:49,490 --> 00:16:51,740
+One very important thing to show you right.
+
+376
+00:16:51,740 --> 00:16:54,560
+What will be the type of this age okay.
+
+377
+00:16:54,560 --> 00:16:59,420
+So that basically means whenever I'm giving any input from this particular input box by using this input
+
+378
+00:16:59,420 --> 00:17:02,330
+function, what will be the type of it by default type.
+
+379
+00:17:02,330 --> 00:17:04,400
+So here I'm going to go ahead and write 23.
+
+380
+00:17:04,580 --> 00:17:06,410
+And here you can see it is a string type.
+
+381
+00:17:06,410 --> 00:17:09,290
+So let's say I want to probably get this particular input.
+
+382
+00:17:09,290 --> 00:17:12,620
+And then also convert this into an integer or float.
+
+383
+00:17:12,620 --> 00:17:15,380
+So I can again typecast this entire thing.
+
+384
+00:17:15,380 --> 00:17:15,860
+Right.
+
+385
+00:17:15,860 --> 00:17:21,080
+So now if I go ahead and execute this now let me just go ahead and write 23 and press enter.
+
+386
+00:17:21,080 --> 00:17:23,420
+So here you can see I'm getting class int right.
+
+387
+00:17:23,420 --> 00:17:30,650
+So this is uh one very important functionality for uh, uh, the entire uh input function over here.
+
+388
+00:17:30,650 --> 00:17:34,700
+And uh, this can be very handy and can be used in various places.
+
+389
+00:17:34,700 --> 00:17:35,240
+Okay.
+
+390
+00:17:35,240 --> 00:17:39,680
+So I hope, uh, you are able to execute this and, uh, you are able to understand this.
+
+391
+00:17:39,680 --> 00:17:41,900
+So I'm just going to show you one example again.
+
+392
+00:17:41,900 --> 00:17:43,220
+Now let us do one thing.
+
+393
+00:17:43,220 --> 00:17:47,360
+Let us simply create one simple calculator okay.
+
+394
+00:17:47,480 --> 00:17:50,030
+Now this simple calculator will be amazing.
+
+395
+00:17:50,030 --> 00:17:55,070
+So here you can, uh, just see that, uh, what this calculator is doing I'm giving two numbers.
+
+396
+00:17:55,070 --> 00:17:58,370
+Uh, again, I'm using this input, uh, number one.
+
+397
+00:17:58,370 --> 00:17:58,790
+Again.
+
+398
+00:17:58,790 --> 00:18:00,650
+Number two, then some.
+
+399
+00:18:00,650 --> 00:18:04,490
+I'm doing num plus num one plus num two difference num one minus num two.
+
+400
+00:18:04,490 --> 00:18:08,510
+And product is num one multiplied by num two num one divided by num two.
+
+401
+00:18:08,510 --> 00:18:11,390
+We'll discuss more about this operators as we go ahead.
+
+402
+00:18:11,390 --> 00:18:11,840
+And we are just.
+
+403
+00:18:11,970 --> 00:18:14,010
+Going to display all the some difference and all.
+
+404
+00:18:14,010 --> 00:18:14,670
+So let's go.
+
+405
+00:18:14,940 --> 00:18:15,690
+Execute it.
+
+406
+00:18:15,690 --> 00:18:17,730
+Let's say the first number is 56.
+
+407
+00:18:17,730 --> 00:18:20,820
+I'll go ahead and press enter again I've got my another cell.
+
+408
+00:18:20,820 --> 00:18:26,760
+Let's say I'm going to write 43 or 10 something and press enter.
+
+409
+00:18:26,760 --> 00:18:31,800
+So here you can see I'm able to see all the ounces like some difference product and quotient.
+
+410
+00:18:31,800 --> 00:18:32,370
+Right.
+
+411
+00:18:32,460 --> 00:18:33,600
+So yes.
+
+412
+00:18:33,600 --> 00:18:35,850
+Uh, this was uh, amazing.
+
+413
+00:18:35,850 --> 00:18:40,500
+This was I guess, you, you are able to understand many things about variables.
+
+414
+00:18:40,860 --> 00:18:42,570
+Uh, this was it from my side.
+
+415
+00:18:42,570 --> 00:18:46,470
+Uh, in the next video, I am going to probably discuss more about data types.
+
+416
+00:18:46,470 --> 00:18:49,350
+And then finally we'll also be discussing about operators.
+
+417
+00:18:49,350 --> 00:18:50,670
+What are the different different data types.
+
+418
+00:18:50,670 --> 00:18:52,080
+Also we need to discuss about.
+
+419
+00:18:52,080 --> 00:18:53,550
+So yes this was it for my side.
+
+420
+00:18:53,550 --> 00:18:54,660
+I will see you in the next video.
+
+421
+00:18:54,660 --> 00:18:54,930
+Thank you.

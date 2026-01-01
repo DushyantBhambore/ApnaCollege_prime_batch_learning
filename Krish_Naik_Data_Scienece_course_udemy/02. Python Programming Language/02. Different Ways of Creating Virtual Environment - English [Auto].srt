@@ -1,0 +1,615 @@
+1
+00:00:00,230 --> 00:00:05,750
+So guys, one of the most important question that I've been asked by many people who implement end to
+
+2
+00:00:05,750 --> 00:00:09,230
+end project, that is with respect to creating an environment.
+
+3
+00:00:09,260 --> 00:00:13,790
+Now there are multiple ways in creating an environment, uh, for a project.
+
+4
+00:00:13,790 --> 00:00:18,650
+And it is always a good idea that you probably create a separate environment for every project because
+
+5
+00:00:18,650 --> 00:00:23,090
+you have a different set of dependencies and libraries that you need to install over there.
+
+6
+00:00:23,390 --> 00:00:30,470
+Now, considering this right, I usually in my YouTube channel I use Conda command to create, uh,
+
+7
+00:00:30,470 --> 00:00:31,520
+environment itself.
+
+8
+00:00:31,520 --> 00:00:32,060
+Right.
+
+9
+00:00:32,060 --> 00:00:35,870
+And many people do not have Anaconda installed, they just have Python installed.
+
+10
+00:00:35,870 --> 00:00:38,510
+So due to that they get some kind of error.
+
+11
+00:00:38,720 --> 00:00:39,110
+Right.
+
+12
+00:00:39,110 --> 00:00:43,640
+You can also create an environment through this Python command which I'm going to show you.
+
+13
+00:00:43,640 --> 00:00:48,740
+So again in this video what all things I'm actually going to cover, all the different ways how you
+
+14
+00:00:48,740 --> 00:00:52,910
+can probably create an environment and start your end to end project itself.
+
+15
+00:00:52,910 --> 00:00:57,740
+So let me quickly go ahead and show you I'm going to show you three different ways.
+
+16
+00:00:57,830 --> 00:01:00,260
+I'll open my terminal.
+
+17
+00:01:00,260 --> 00:01:00,890
+Okay.
+
+18
+00:01:00,890 --> 00:01:06,770
+And the best thing is that you can use along with you can use as a Linux command.
+
+19
+00:01:06,770 --> 00:01:09,710
+Also you can use as in Windows Command Prompt also.
+
+20
+00:01:09,710 --> 00:01:11,660
+So let me just show you the first way.
+
+21
+00:01:11,660 --> 00:01:17,360
+The first way will be using python command right conda create command I usually show you.
+
+22
+00:01:17,360 --> 00:01:20,600
+But today I will show you all the three ways how you can actually do it.
+
+23
+00:01:20,600 --> 00:01:23,540
+So let me go ahead and write by using the python command.
+
+24
+00:01:23,540 --> 00:01:27,110
+So I will write p y t o h in python okay.
+
+25
+00:01:27,110 --> 00:01:30,860
+And then here I will go ahead and write minus m okay.
+
+26
+00:01:30,860 --> 00:01:35,300
+And my command name that is v and v inside what folder.
+
+27
+00:01:35,300 --> 00:01:35,510
+Okay.
+
+28
+00:01:35,510 --> 00:01:38,450
+So here let's say my folder is why my e and v.
+
+29
+00:01:38,450 --> 00:01:42,440
+So once I do this this folder will automatically get created okay.
+
+30
+00:01:42,440 --> 00:01:45,260
+And by default a environment will be set up.
+
+31
+00:01:45,260 --> 00:01:51,770
+Now inside this particular environment, what kind of uh, Python version you specifically have for
+
+32
+00:01:51,800 --> 00:01:52,040
+that?
+
+33
+00:01:52,040 --> 00:01:54,530
+First of all, let's go ahead and activate it okay.
+
+34
+00:01:54,530 --> 00:02:00,560
+Now to activate this, what I will do inside my me and V there will be include libraries, folders and
+
+35
+00:02:00,560 --> 00:02:02,990
+all inside script there is one activate file.
+
+36
+00:02:02,990 --> 00:02:07,160
+So I just need to go ahead and activate this to activate this particular environment.
+
+37
+00:02:07,160 --> 00:02:16,310
+So for that what I will do I will write my env slash scripts slash activate okay.
+
+38
+00:02:16,310 --> 00:02:20,450
+So once I write this and now here you can see that my environment is activated.
+
+39
+00:02:20,450 --> 00:02:24,770
+Now I can probably go ahead and install any kind of libraries that I specifically want.
+
+40
+00:02:24,770 --> 00:02:26,780
+Let's say pip install pandas.
+
+41
+00:02:26,780 --> 00:02:34,310
+If I do or pip install numpy, then automatically the numpy will get installed in this specific library.
+
+42
+00:02:34,310 --> 00:02:34,790
+Okay.
+
+43
+00:02:34,790 --> 00:02:40,070
+And later on, if you have many number of libraries you can basically create a requirement dot txt for
+
+44
+00:02:40,070 --> 00:02:40,280
+this.
+
+45
+00:02:40,280 --> 00:02:43,490
+The prerequisite is that you only need to have Python installed.
+
+46
+00:02:43,940 --> 00:02:48,830
+Now, which version of Python is probably getting installed over here that also you really need to check
+
+47
+00:02:48,830 --> 00:02:49,910
+by default.
+
+48
+00:02:49,910 --> 00:02:53,060
+Let's say in my Python environment right now I just shot right.
+
+49
+00:02:53,060 --> 00:02:55,580
+Let's let's go and see my Python version.
+
+50
+00:02:55,580 --> 00:02:59,270
+So let me go ahead and write Python version.
+
+51
+00:02:59,270 --> 00:03:01,910
+So inside my Python version oops.
+
+52
+00:03:02,210 --> 00:03:04,940
+You can see Python 3.8.5 is there.
+
+53
+00:03:04,940 --> 00:03:05,330
+Right.
+
+54
+00:03:05,330 --> 00:03:08,780
+So by default whenever I create an environment.
+
+55
+00:03:08,780 --> 00:03:12,170
+So this Python 3.85 only will get created.
+
+56
+00:03:12,170 --> 00:03:14,720
+Because in my system I have this specific thing installed.
+
+57
+00:03:14,810 --> 00:03:18,410
+Let's say I want to create with another Python version.
+
+58
+00:03:18,410 --> 00:03:21,320
+Then I need to upgrade my python package itself, right?
+
+59
+00:03:21,320 --> 00:03:24,470
+I need to probably make it to 3.1. 2 or 3 .1.2.
+
+60
+00:03:24,500 --> 00:03:27,350
+What I need to do is that just go to Google, okay?
+
+61
+00:03:27,350 --> 00:03:32,780
+And probably let's say I go to python.org and here I download the recent version.
+
+62
+00:03:32,780 --> 00:03:33,710
+Now automatically.
+
+63
+00:03:33,710 --> 00:03:37,880
+What will happen is that whenever I create an environment that through that way then I will get this
+
+64
+00:03:37,880 --> 00:03:38,930
+specific version.
+
+65
+00:03:38,930 --> 00:03:40,790
+So this is one way okay.
+
+66
+00:03:40,790 --> 00:03:41,960
+The another way.
+
+67
+00:03:41,960 --> 00:03:44,240
+So let me quickly I've activated it.
+
+68
+00:03:44,240 --> 00:03:46,700
+Now I will go ahead and deactivate it.
+
+69
+00:03:46,700 --> 00:03:47,780
+I will clear the screen.
+
+70
+00:03:47,930 --> 00:03:50,180
+So this is one environment that has got created.
+
+71
+00:03:50,180 --> 00:03:54,290
+Now there is also another way which we specifically use for Linux.
+
+72
+00:03:54,440 --> 00:03:55,760
+Uh Linux commands itself.
+
+73
+00:03:55,760 --> 00:03:59,090
+So first of all I will go ahead and install virtual envy.
+
+74
+00:03:59,300 --> 00:04:02,840
+So this virtual envy sorry I think it'll get an error.
+
+75
+00:04:02,840 --> 00:04:06,500
+So virtual envy this I will try to install.
+
+76
+00:04:06,500 --> 00:04:12,410
+So once I properly install virtual envy I'll show you how you can create a command an environment through
+
+77
+00:04:12,410 --> 00:04:13,910
+using virtual envy itself.
+
+78
+00:04:13,910 --> 00:04:17,090
+And that also you can also use it in PowerShell or Good Bash.
+
+79
+00:04:17,090 --> 00:04:21,470
+So in Virtual Envy I will go ahead and write virtual envy okay.
+
+80
+00:04:21,470 --> 00:04:27,650
+And after writing virtual envy, let me go and go ahead and write it minus pi P.
+
+81
+00:04:27,650 --> 00:04:29,750
+And then I will go ahead and write Python.
+
+82
+00:04:29,750 --> 00:04:30,410
+Okay.
+
+83
+00:04:30,410 --> 00:04:33,500
+Python the version I know that it is somewhere around three.
+
+84
+00:04:33,500 --> 00:04:38,030
+And this will basically be my virtual environment name virtual underscore envy.
+
+85
+00:04:38,240 --> 00:04:41,390
+So once I go ahead and execute it, you'll be able to see that.
+
+86
+00:04:41,390 --> 00:04:44,720
+Now inside this virtual envy is also getting created.
+
+87
+00:04:44,720 --> 00:04:47,090
+And inside this also you have a script folder.
+
+88
+00:04:47,090 --> 00:04:49,730
+So if you want to activate somewhere activate.
+
+89
+00:04:50,180 --> 00:04:51,530
+This will also be there right.
+
+90
+00:04:51,530 --> 00:04:53,990
+Activate file will be there to activate those commands.
+
+91
+00:04:53,990 --> 00:04:59,600
+So in order to activate it what I will do I will quickly go ahead and clear the screen and go ahead
+
+92
+00:04:59,600 --> 00:04:59,840
+and write.
+
+93
+00:04:59,980 --> 00:05:02,410
+A virtual envy.
+
+94
+00:05:02,410 --> 00:05:05,830
+I think the the folder name is virtual envy, I guess.
+
+95
+00:05:06,880 --> 00:05:07,630
+Let's see.
+
+96
+00:05:07,630 --> 00:05:09,490
+Virtual underscore envy.
+
+97
+00:05:10,570 --> 00:05:12,730
+Virtual underscore envy.
+
+98
+00:05:12,910 --> 00:05:18,760
+So slash scripts slash back slash activate.
+
+99
+00:05:18,760 --> 00:05:22,390
+So once I activate now here you can see I'm getting some error.
+
+100
+00:05:22,390 --> 00:05:24,400
+Let's see what is the file name.
+
+101
+00:05:24,400 --> 00:05:25,750
+Scripts.
+
+102
+00:05:26,290 --> 00:05:32,680
+Scripts uh slash I think the spelling is somewhere here itself.
+
+103
+00:05:32,680 --> 00:05:35,830
+Let's see I will go ahead and copy this path.
+
+104
+00:05:37,690 --> 00:05:38,260
+Okay.
+
+105
+00:05:45,170 --> 00:05:45,650
+Oops.
+
+106
+00:05:45,680 --> 00:05:46,670
+Let me just see.
+
+107
+00:05:46,670 --> 00:05:47,900
+Okay.
+
+108
+00:05:47,930 --> 00:05:48,800
+Activate.
+
+109
+00:05:48,800 --> 00:05:49,250
+Activate.
+
+110
+00:05:49,250 --> 00:05:50,090
+Activate.
+
+111
+00:05:50,090 --> 00:05:52,820
+I will copy the relative path.
+
+112
+00:05:52,820 --> 00:05:53,900
+I'll paste it over there.
+
+113
+00:05:56,480 --> 00:05:57,530
+I think it should be.
+
+114
+00:05:57,530 --> 00:06:02,240
+Now you can see that it has got, uh, it moves into this particular virtual environment.
+
+115
+00:06:02,270 --> 00:06:04,910
+Now, in order to deactivate, I will go ahead and deactivate.
+
+116
+00:06:04,910 --> 00:06:05,390
+Okay.
+
+117
+00:06:05,870 --> 00:06:07,610
+Now, this is the thing, right?
+
+118
+00:06:07,610 --> 00:06:11,630
+Uh, through this, what you really need to do is that whenever you upgrade your Python, you'll be
+
+119
+00:06:11,630 --> 00:06:17,450
+able to create that particular Python, uh, environment with that particular Python version in this
+
+120
+00:06:17,450 --> 00:06:22,520
+the third way, which is the most common way in which I also use is by using conda create.
+
+121
+00:06:22,520 --> 00:06:25,970
+For this you really need to have anaconda installed.
+
+122
+00:06:25,970 --> 00:06:33,380
+An anaconda is a better way, I feel, because here you will be able to, you know, make sure that
+
+123
+00:06:33,380 --> 00:06:37,850
+all the packages, all the environments are properly managed through the Anaconda environment.
+
+124
+00:06:37,850 --> 00:06:40,670
+You can actually see each and every packages that has got installed.
+
+125
+00:06:40,670 --> 00:06:42,800
+So you can also use this specifically.
+
+126
+00:06:42,800 --> 00:06:49,220
+And for this way you only have to write conda create minus p v and v.
+
+127
+00:06:49,220 --> 00:06:51,020
+Let's say v and v one.
+
+128
+00:06:51,020 --> 00:06:54,740
+And here I will give my python version with respect to anything that I want.
+
+129
+00:06:54,860 --> 00:06:57,170
+3.10 and dot and y.
+
+130
+00:06:57,170 --> 00:06:57,740
+Right.
+
+131
+00:06:57,740 --> 00:07:03,560
+So this command actually helps you to create an environment even though in the base you have different
+
+132
+00:07:03,560 --> 00:07:04,340
+Python version.
+
+133
+00:07:04,340 --> 00:07:14,960
+See right now you have python version python v okay I will write python dash dash v.
+
+134
+00:07:14,960 --> 00:07:20,270
+So here okay version okay Python 3.8.5.
+
+135
+00:07:20,270 --> 00:07:25,100
+Right now what I will do is that I will make sure that I create it through the conda.
+
+136
+00:07:25,100 --> 00:07:30,710
+So I will write conda create minus p v and v one python.
+
+137
+00:07:30,710 --> 00:07:35,450
+Let's say I want to go with higher version python double equal to 3.10.
+
+138
+00:07:35,450 --> 00:07:36,080
+Right.
+
+139
+00:07:36,080 --> 00:07:42,050
+And if I write w dash y then you can see that automatically my entire environment will get created.
+
+140
+00:07:42,050 --> 00:07:42,410
+Right.
+
+141
+00:07:42,410 --> 00:07:45,080
+So I still find this as an efficient way.
+
+142
+00:07:45,080 --> 00:07:49,940
+But again if you don't have Anaconda and whenever because many, many people are getting this kind of
+
+143
+00:07:49,940 --> 00:07:54,590
+errors when they are doing my project, because I only use Conda because that is much more efficient
+
+144
+00:07:54,590 --> 00:07:57,050
+when I compare it to Python, but it is not possible.
+
+145
+00:07:57,050 --> 00:07:59,690
+I'm not saying that it is impossible to create in other ways.
+
+146
+00:08:00,260 --> 00:08:01,580
+You can go with that.
+
+147
+00:08:01,580 --> 00:08:06,380
+So that is the reason I have shown you all the specific ways to go ahead, and you can create a virtual
+
+148
+00:08:06,380 --> 00:08:08,240
+environment based on your needs.
+
+149
+00:08:08,240 --> 00:08:10,070
+So I hope you like this particular video.
+
+150
+00:08:10,070 --> 00:08:11,810
+This was it for my side.
+
+151
+00:08:11,810 --> 00:08:16,940
+And this was the video about creating different ways of environment in your Python projects itself.
+
+152
+00:08:17,210 --> 00:08:17,720
+Uh, yes.
+
+153
+00:08:17,720 --> 00:08:21,140
+Go ahead and try it out and if you have any queries, please let me know in the comment section of this
+
+154
+00:08:21,140 --> 00:08:21,650
+particular video.
