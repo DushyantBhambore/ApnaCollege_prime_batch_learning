@@ -1,0 +1,9 @@
+python version install command in anancoda : conda create -p venv python=3.10
+
+for activate the enviroment that i have install : conda activate venv/
+ 
+for deactivate the virtual environment : conda Deactivate venv/
+
+Using requirement.txt file we can install the libraries just write it name : scikit-learn : command : pip install -r requirement.txt
+
+for install kernerl package :  pip install ipykernel
